@@ -1,0 +1,7 @@
+This is ignored
+FTEE /tmp/out1
+From intest2: goes into out1 only.
+FTEE /tmp/out2
+From intest2: goes into out2 only.
+FTEE /tmp/out1 /tmp/out3
+From intest2: goes into out1 and out3 only. 
