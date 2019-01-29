@@ -10,31 +10,39 @@ import (
 	"strings"
 )
 
-var removeoutputs bool = false
 var outputs = make(map[string]*os.File)
 
 func main() {
-	outputs := make(map[string]*os.File)
-	defer removeOutputFiles()
+	// Ensure we exit with an error code and log message
+	// when needed after deferred cleanups have run.
+	// Credit: https://tinyurl.com/ycv9zpbn
+	var err error
+	defer func() {
+		if err != nil {
+			removeOutputFiles()
+			log.Fatalln(err)
+		}
+	}()
 	defer closeOutputFiles()
 
+	// Parse command line
 	var delimiter string
 	flag.StringVar(&delimiter, "d", "FTEE", "the delimiter tag")
 	flag.Parse()
-	delimiter = "FTEE"
 	infiles := flag.Args()
 
+	var infd *os.File
 	for _, infname := range infiles {
 		// Open the input file
-		infd, err := os.Open(infname)
+		infd, err = os.Open(infname)
 		if err != nil {
-			removeoutputs = true
-			log.Fatalf("Couldn't open input file: %q", err)
+			err = fmt.Errorf("Couldn't open input file: %q", err)
+			return
 		}
 		outputs, err = processInputFile(infd, delimiter, outputs)
 		if err != nil {
-			removeoutputs = true
-			log.Fatalf("Error processing %s: %q", infname, err)
+			err = fmt.Errorf("Error processing %s: %q", infname, err)
+			return
 		}
 	}
 }
@@ -113,13 +121,11 @@ func closeOutputFiles() {
 	}
 }
 
-// removeOutputFiles is used as a deferred call in main to ensure that all
-// output files are removed if an error has occurred.
+// removeOutputFiles is used in main to ensure that all output files are
+// removed if an error has occurred.
 func removeOutputFiles() {
-	if removeoutputs {
-		for name, _ := range outputs {
-			os.Remove(name)
-		}
+	for name, _ := range outputs {
+		os.Remove(name)
 	}
 }
 
