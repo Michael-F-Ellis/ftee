@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"reflect"
 	"testing"
 )
@@ -48,21 +47,21 @@ func TestExtractFileNames(t *testing.T) {
 }
 
 func TestOpenOutputFiles(t *testing.T) {
-	outputs := make(map[string]*os.File)
+	//outputs := make(map[string]*os.File)
 	names := []string{"/tmp/foo.txt", "/tmp/bar.txt"}
-	updated, err := openOutputFiles(names, outputs)
+	err := openOutputFiles(names)
 	if err != nil {
 		t.Errorf("Unexpected error: %q", err)
 	}
-	if len(updated) != 2 {
-		t.Errorf("Expected 2 opened files, got %d", len(updated))
+	if len(_gOutputs) != 2 {
+		t.Errorf("Expected 2 opened files, got %d", len(_gOutputs))
 	}
-	updated2, err := openOutputFiles(names, updated)
+	err = openOutputFiles(names)
 	if err != nil {
 		t.Errorf("Unexpected error: %q", err)
 	}
-	if !reflect.DeepEqual(updated, updated2) {
-		t.Errorf("Expected %v got %v", updated, updated2)
+	if len(_gOutputs) != 2 {
+		t.Errorf("Expected 2 opened files, got %d", len(_gOutputs))
 	}
 	closeOutputFiles()
 	removeOutputFiles()

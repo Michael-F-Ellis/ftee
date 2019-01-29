@@ -1,3 +1,44 @@
+// Copyright 2019 Ellis & Grant, Inc. All rights reserved.
+// Use of this source code is governed by an MIT-style
+// license that can be found in the LICENSE file.
+
+/*
+ftee is a many-to-many file splitter. Command line usage is
+
+    ftee [-h] [-d delimiter] infile1 [infile2 ... ]
+
+The default delimiter is "FTEE".
+
+ftee reads all lines in each input file sequentially. When it sees a line
+ending with "delimiter outfile1 [outfile2 ...]", it opens the outfiles and
+writes all following lines to each output file until another delimiter line is
+encountered.
+
+Example: Consider a file containing
+	This is ignored
+	FTEE /tmp/out1
+	This goes into out1 only.
+	FTEE /tmp/out2
+	This goes into out2 only.
+	FTEE /tmp/out1 /tmp/out3
+	This goes into out1 and out3.
+
+Processing with ftee will produce 3 output files with the following content:
+
+/tmp/out1:
+	This goes into out1 only.
+	This goes into out1 and out3.
+
+/tmp/out2:
+	This goes into out2 only.
+
+/tmp/out3:
+	This goes into out3 only.
+	This goes into out1 and out3.
+
+ftee deletes all output files and exits with an error message and a non-zero
+status code if any error occurs.
+*/
 package main
 
 import (
@@ -10,7 +51,8 @@ import (
 	"strings"
 )
 
-var outputs = make(map[string]*os.File)
+// Global map of output filenames and file objects.
+var _gOutputs = make(map[string]*os.File)
 
 func main() {
 	// Ensure we exit with an error code and log message
@@ -23,6 +65,8 @@ func main() {
 			log.Fatalln(err)
 		}
 	}()
+
+	// Close any opened output files on exit.
 	defer closeOutputFiles()
 
 	// Parse command line
@@ -31,15 +75,15 @@ func main() {
 	flag.Parse()
 	infiles := flag.Args()
 
+	// Process all the input files
 	var infd *os.File
 	for _, infname := range infiles {
-		// Open the input file
 		infd, err = os.Open(infname)
 		if err != nil {
 			err = fmt.Errorf("Couldn't open input file: %q", err)
 			return
 		}
-		outputs, err = processInputFile(infd, delimiter, outputs)
+		err = processInputFile(infd, delimiter)
 		if err != nil {
 			err = fmt.Errorf("Error processing %s: %q", infname, err)
 			return
@@ -92,11 +136,11 @@ func extractFileNames(delimiter string, line string) (names []string, err error)
 // successful it adds it to outputs map. On failure, it returns the error from
 // os.Create immediately without attempting to open any further files from the
 // names list.
-func openOutputFiles(names []string, outputs map[string]*os.File) (map[string]*os.File, error) {
+func openOutputFiles(names []string) error {
 	var err error = nil
 	for _, name := range names {
 		isnew := true
-		for oname, _ := range outputs {
+		for oname, _ := range _gOutputs {
 			if oname == name {
 				isnew = false
 				break
@@ -105,18 +149,18 @@ func openOutputFiles(names []string, outputs map[string]*os.File) (map[string]*o
 		if isnew {
 			fd, err := os.Create(name)
 			if err != nil {
-				return outputs, err
+				return err
 			}
-			outputs[name] = fd
+			_gOutputs[name] = fd
 		}
 	}
-	return outputs, err
+	return err
 }
 
 // closeOutputFiles is used as a deferred call in main to ensure that all
 // output files are closed on exit.
 func closeOutputFiles() {
-	for _, fd := range outputs {
+	for _, fd := range _gOutputs {
 		fd.Close()
 	}
 }
@@ -124,12 +168,26 @@ func closeOutputFiles() {
 // removeOutputFiles is used in main to ensure that all output files are
 // removed if an error has occurred.
 func removeOutputFiles() {
-	for name, _ := range outputs {
+	for name, _ := range _gOutputs {
 		os.Remove(name)
 	}
 }
 
-func processInputFile(fd *os.File, delimiter string, outputs map[string]*os.File) (map[string]*os.File, error) {
+// processInputFile reads every line from fd and scans to see
+// if it contains delimiter. If not, the line is output to
+// all currently active target files. If the line contains delimiter
+// it parses the remainder of the line as a list of space-delimited
+// filenames for output. These are passed to openOutputFiles() to be
+// opened if they haven't been opened already. If openOutputFiles()
+// succeeds, the files are set as the current output targets for
+// following lines until the next delimiter line is encountered.
+//
+// If parsing fails, the error from extractFileNames() is returned.
+// Similarly, processing ends if openOutputFiles() fails.
+// Processing ends normally when all lines in the file have been
+// read and processed.
+func processInputFile(fd *os.File, delimiter string) error {
+	defer fd.Close()
 	var err error = nil
 	reader := bufio.NewReader(fd)
 	var targets = make([]*os.File, 0)
@@ -141,11 +199,11 @@ func processInputFile(fd *os.File, delimiter string, outputs map[string]*os.File
 			break
 		}
 		if err != nil {
-			return outputs, err
+			return err
 		}
 		names, err := extractFileNames(delimiter, line)
 		if err != nil {
-			return outputs, err
+			return err
 		}
 		if len(names) == 0 {
 			// lineout := line + "\n"
@@ -153,15 +211,15 @@ func processInputFile(fd *os.File, delimiter string, outputs map[string]*os.File
 				f.WriteString(line)
 			}
 		} else {
-			outputs, err = openOutputFiles(names, outputs)
+			err = openOutputFiles(names)
 			if err != nil {
-				return outputs, err
+				return err
 			}
 			targets = make([]*os.File, 0)
 			for _, name := range names {
-				targets = append(targets, outputs[name])
+				targets = append(targets, _gOutputs[name])
 			}
 		}
 	}
-	return outputs, err
+	return err
 }
