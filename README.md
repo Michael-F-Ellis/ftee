@@ -2,45 +2,62 @@
 A many-to-many text file splitter written in Go
 
 ## Usage
+    Usage: ftee [OPTIONS] filepath [filepath ...]
+      -h  print this help message.
+      -d string
+          the delimiter tag (default "FTEE")
 
-Command line usage is
+    ftee reads all lines in each input file sequentially. When it sees a line
+    ending with "delimiter outfile1 [outfile2 ...]", it opens the outfiles and
+    writes all following lines to each output file until another delimiter line
+    is encountered.
 
-    ftee [-h] [-d delimiter] infile1 [infile2 ... ]
+  ## Example
+    Consider a file containing:
 
-The default delimiter is "FTEE".
+	  This is ignored
+	  FTEE /tmp/out1
+	  This goes into out1 only.
+	  FTEE /tmp/out2
+	  This goes into out2 only.
+	  FTEE /tmp/out1 /tmp/out3
+	  This goes into out1 and out3.
 
-ftee reads all lines in each input file sequentially. When it sees a line
-ending with "delimiter outfile1 [outfile2 ...]", it opens the outfiles and
-writes all following lines to each output file until another delimiter line
-is encountered.
+    Processing with ftee will produce 3 output files with the following content:
 
-## Example
-Consider a file containing
+    /tmp/out1:
+  	  This goes into out1 only.
+  	  This goes into out1 and out3.
 
-    This is ignored
-    FTEE /tmp/out1
-    This goes into out1 only.
-    FTEE /tmp/out2
-    This goes into out2 only.
-    FTEE /tmp/out1 /tmp/out3
-    This goes into out1 and out3.
+    /tmp/out2:
+  	  This goes into out2 only.
 
-Processing with ftee will produce 3 output files with the following content:
+    /tmp/out3:
+  	  This goes into out1 and out3.
 
-/tmp/out1:
 
-    This goes into out1 only.
-    This goes into out1 and out3.
+  ## Errors
+	ftee deletes all output files and exits with an error message and a
+	non-zero status code if any error occurs.
 
-/tmp/out2:
+	ftee ignores the line content before the delimiter. The following are
+	all correct:
 
-    This goes into out2 only.
+	  FTEE somefile
+	  // FTEE somefile
+		# FTEE somefile
+	  What do you get when cross a gopher and an elephant? An FTEE rodent
 
-/tmp/out3:
+	The delimiter must be preceded and followed by whitespace. The following
+	will cause an error:
 
-    This goes into out3 only.
-    This goes into out1 and out3.
+	  //FTEE somefile
+	  FTEEsomefile
 
-## Errors
-ftee deletes all output files and exits with an error message and a non-zero
-status code if any error occurs.
+	ftee expects whitespace separated valid filepaths after the delimiter to
+	the end of the line. The following will cause an error:
+
+	  /* FTEE somefile otherfile */
+
+	ftee has not been tested on Windows. Problems with backslashed filepaths
+	are likely.
