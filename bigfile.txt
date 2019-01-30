@@ -1,0 +1,2092 @@
+This benchmark file is approximately 100 kbytes in 2100 lines.
+When processed with ftee, the content (not including this description) will be written
+to 6 output files: bigout1.txt ... bigout6.txt. Each delimited section is written
+to two different output files.
+
+FTEE bigout1.txt bigout2.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Duis a commodo eros, sit amet facilisis nulla
+Phasellus tempus ligula eu mi euismod, id tincidunt erat tincidunt
+In iaculis aliquam lacinia
+Sed hendrerit quam eu velit vehicula, ac scelerisque dolor pulvinar
+Aliquam in tortor efficitur, pellentesque nulla nec, tempor velit
+Sed ex felis, rhoncus vitae nisi vitae, lobortis interdum magna
+Praesent at risus arcu
+Vivamus vitae urna justo
+Duis eu nisi sit amet risus iaculis pulvinar
+Ut tempor tortor et dolor iaculis convallis
+Morbi vehicula imperdiet arcu pellentesque porttitor.
+FTEE bigout3.txt bigout4.txt
+Donec sed erat ac ipsum rhoncus maximus
+Mauris in tempus quam
+Sed sapien diam, efficitur et malesuada et, vulputate at lectus
+Vivamus rhoncus massa in auctor aliquam
+Ut ut tincidunt diam, ac congue nisl
+Donec ultrices mauris sem
+Aenean luctus bibendum odio.
+FTEE bigout5.txt bigout6.txt
+Vestibulum ullamcorper bibendum ligula eget dictum
+Ut in nisi vel diam feugiat posuere
+Suspendisse blandit turpis eget porta interdum
+Phasellus tempor urna et velit fermentum, ac ultricies erat laoreet
+Aenean imperdiet odio neque, sed consequat tortor dignissim et
+Ut ultrices congue mauris, sodales varius est pharetra ac
+Vivamus at diam finibus, pulvinar ligula tincidunt, porta mauris
+Integer gravida ornare rutrum
+Vestibulum pellentesque augue odio, sed gravida diam scelerisque in
+Sed et magna vestibulum, rhoncus libero euismod, egestas augue
+Nulla facilisis finibus finibus.
+FTEE bigout1.txt bigout2.txt
+Duis vel nunc fringilla, tincidunt dolor consectetur, sollicitudin erat
+In hac habitasse platea dictumst
+Donec ac nibh non lacus interdum feugiat
+Sed imperdiet venenatis ante, imperdiet consequat libero
+Vivamus rutrum velit porttitor nunc commodo sodales
+Suspendisse potenti
+Integer aliquam urna sed mattis semper
+Morbi a dolor euismod, porttitor odio et, malesuada tellus
+Proin pellentesque nibh interdum, ullamcorper massa nec, egestas nibh
+Nullam ipsum est, mattis quis laoreet eu, scelerisque id ante
+Nam cursus porta ex, quis aliquet mi porta at.
+FTEE bigout3.txt bigout4.txt
+Mauris non neque et eros ullamcorper varius pharetra sit amet ex
+Aliquam erat volutpat
+Suspendisse vitae efficitur odio
+Phasellus et nibh quis orci dictum congue quis a mauris
+Donec id elit sapien
+Nunc facilisis massa augue, vitae iaculis arcu posuere quis
+Ut vel neque bibendum, accumsan ex a, ullamcorper est
+Mauris condimentum molestie enim, sit amet cursus ante tempus in
+Aliquam erat volutpat
+Aenean sapien urna, iaculis ut odio finibus, tincidunt cursus orci
+Integer tincidunt feugiat ex
+Nullam euismod dui metus, non sollicitudin nunc pulvinar eget.
+FTEE bigout5.txt bigout6.txt
+Nulla dignissim ac enim in rutrum
+Nunc lectus leo, mollis pharetra tempus eu, efficitur vitae magna
+Proin arcu urna, viverra in porttitor egestas, lacinia sit amet lorem
+Sed euismod dapibus luctus
+Aliquam sodales erat ac ex hendrerit maximus
+Mauris nec fermentum arcu
+Curabitur eget metus risus
+Ut at fringilla nunc
+Pellentesque consequat quam mauris
+Vestibulum id mauris eget est blandit pellentesque
+In fermentum nibh ante, sed accumsan libero elementum commodo
+Nulla facilisi
+Nullam sed felis velit
+Integer ut magna sollicitudin, malesuada magna ac, lobortis nisl
+Maecenas at leo erat.
+FTEE bigout1.txt bigout2.txt
+In dui arcu, mattis rhoncus ultrices a, scelerisque a libero
+Aenean luctus ac metus sed faucibus
+Morbi dictum volutpat risus, sed gravida mauris facilisis sed
+Suspendisse eu ligula eget orci dignissim efficitur
+Donec ac sem vel urna commodo dignissim quis nec tellus
+Mauris a est velit
+Sed aliquet quam sit amet nisi sollicitudin malesuada
+Suspendisse eu ligula vitae diam ultricies malesuada
+Suspendisse ullamcorper odio vehicula, hendrerit sem eget, pharetra nunc
+Donec tempus consequat magna ac blandit
+Sed sollicitudin libero at risus finibus pretium.
+FTEE bigout3.txt bigout4.txt
+Suspendisse nulla erat, venenatis sodales lacus non, tempor eleifend sapien
+Suspendisse id nisi ligula
+Nulla congue purus blandit, vulputate orci id, vestibulum magna
+Proin feugiat eu nunc id vulputate
+In mollis turpis non egestas auctor
+Integer tristique nisi ante, et lacinia urna pretium et
+Praesent lectus nisi, maximus in bibendum ut, maximus sit amet risus
+Praesent ac risus velit
+Praesent vel leo eu dolor pretium pretium
+Etiam at molestie tellus, eu porta nunc.
+FTEE bigout5.txt bigout6.txt
+Sed at turpis mollis, iaculis tellus eget, ullamcorper lorem
+In pulvinar diam non semper malesuada
+Nam ornare, est eu accumsan euismod, lectus nibh congue lacus, non convallis urna massa vitae purus
+Vivamus auctor erat tortor
+Integer ac odio interdum, pellentesque tellus a, sodales velit
+Aliquam erat volutpat
+Phasellus mollis tristique sem ut hendrerit
+Praesent efficitur nisl enim, at sagittis massa ullamcorper vitae
+Integer in massa blandit elit fermentum consequat ac at elit.
+FTEE bigout1.txt bigout2.txt
+Sed hendrerit tellus ut lorem vestibulum, et tincidunt ligula maximus
+Sed pharetra velit ultricies neque lacinia laoreet
+Donec pharetra vel dolor id congue
+Nulla at lacus gravida, sollicitudin lacus ac, tempus sem
+Nullam leo elit, scelerisque vitae consequat sit amet, sollicitudin sed nisl
+In ut orci id tellus malesuada dignissim at nec elit
+Curabitur vel massa ac massa tempus ultrices ac ac ex
+Morbi tellus nibh, blandit a aliquet in, feugiat sed augue.
+FTEE bigout3.txt bigout4.txt
+Nullam eget feugiat diam, id consequat elit
+Etiam a dolor nunc
+Integer dui tellus, hendrerit nec semper a, commodo a tortor
+Vestibulum faucibus sollicitudin leo, et tempus diam tempor a
+Integer dapibus consequat lacus
+Donec faucibus quam sed ipsum commodo dictum
+Aenean sollicitudin nunc purus, at finibus justo rutrum eget.
+FTEE bigout5.txt bigout6.txt
+Mauris at ipsum nec neque cursus accumsan volutpat nec urna
+Ut sollicitudin sollicitudin arcu, ut volutpat tortor efficitur non
+Sed iaculis nibh ligula, eu aliquet purus dapibus eget
+Proin in erat feugiat mi consequat condimentum non id nisl
+Etiam nec diam ut nulla lacinia fringilla
+Sed pulvinar in nibh vel tristique
+Nunc volutpat orci in felis feugiat, vitae viverra est malesuada
+In rhoncus quam id lectus sodales, nec consectetur massa euismod
+In porta turpis ut lacus finibus sodales.
+FTEE bigout1.txt bigout2.txt
+Nullam nec lorem nec magna elementum facilisis
+Nam dignissim libero sed odio suscipit tincidunt
+Duis sed ligula sit amet magna pellentesque fermentum
+Nulla in faucibus arcu
+Suspendisse blandit tempus blandit
+Mauris dictum nisl vel molestie sodales
+Interdum et malesuada fames ac ante ipsum primis in faucibus.
+FTEE bigout3.txt bigout4.txt
+Integer posuere luctus est sed pellentesque
+Proin laoreet eros est, id mattis felis pulvinar ac
+Ut tortor quam, lacinia in erat vitae, ornare fermentum quam
+Integer ultrices quis tellus id dapibus
+Fusce quis viverra nulla, ac faucibus ligula
+Quisque dapibus finibus imperdiet
+Duis sagittis metus eu justo tempus elementum
+Cras sed justo ac felis semper vulputate
+Curabitur sit amet euismod enim, sit amet dignissim dolor
+Aliquam ullamcorper semper nulla nec ullamcorper
+Cras id pretium tellus, eget interdum lacus.
+FTEE bigout5.txt bigout6.txt
+Quisque tristique leo at mollis tincidunt
+Aenean velit purus, tincidunt vitae velit non, scelerisque cursus purus
+Morbi sed orci id nulla feugiat viverra sed vitae libero
+Sed sit amet tortor eu leo vulputate sagittis
+Cras ut nisl ac eros cursus gravida
+Curabitur non imperdiet dui
+Duis pharetra volutpat dui eget lobortis
+Quisque vel purus consequat, auctor nunc ac, varius lacus
+Sed non convallis turpis
+Aliquam lorem odio, bibendum sed dictum nec, ullamcorper non dui
+Etiam ullamcorper malesuada diam eget molestie
+Sed eros sapien, ultricies eget cursus nec, venenatis eget sapien
+Vestibulum ac mi at odio convallis feugiat
+Phasellus eu est fermentum, dignissim quam nec, pulvinar nunc
+Vivamus tincidunt placerat orci, rutrum pretium augue egestas bibendum.
+FTEE bigout1.txt bigout2.txt
+Proin ac pharetra nulla, sed luctus dui
+Cras leo odio, faucibus vel neque et, tempus viverra ligula
+Curabitur congue tortor magna, nec congue nunc rutrum a
+Vestibulum mi ante, congue a dolor a, malesuada consectetur arcu
+Nunc est sapien, tincidunt sed consectetur eget, sodales sollicitudin augue
+Quisque pharetra malesuada augue, ut congue augue finibus eget
+Phasellus felis sem, cursus at tincidunt vel, consequat at ante
+Vivamus at turpis sapien
+Integer eu diam consequat, finibus orci vel, mollis ex
+Morbi efficitur est est, eget tempus lacus tristique ut
+In posuere nisl et erat congue tincidunt
+Nam ut massa vel enim fringilla ullamcorper
+Cras pellentesque laoreet mauris, a tempus purus pulvinar quis
+Nam at risus vitae dolor fermentum consequat et eget metus.
+FTEE bigout3.txt bigout4.txt
+Nulla suscipit non eros et elementum
+Sed dignissim sed massa sit amet pharetra
+Mauris et lacus ut felis mattis ullamcorper in id magna
+Sed vestibulum quis augue sed eleifend
+Suspendisse in ligula nec metus blandit tristique eu nec enim
+Aliquam sollicitudin dolor nec erat dignissim commodo
+Ut pretium mauris ac arcu convallis, id tristique orci consequat
+Suspendisse tristique sapien eget semper feugiat
+Nullam blandit felis ut aliquet laoreet.
+FTEE bigout5.txt bigout6.txt
+Nullam eu ipsum id dui tempus congue
+Ut in neque ac mauris scelerisque semper a ullamcorper massa
+Duis mauris lacus, ultrices sit amet sem eget, rutrum faucibus purus
+In at dui quis risus fringilla auctor eu vitae leo
+Pellentesque scelerisque fermentum ultricies
+Nullam maximus nulla sed tortor scelerisque facilisis
+Integer porta neque interdum, vestibulum lorem a, tempor arcu
+Suspendisse vitae interdum tortor
+Proin imperdiet convallis nunc in ornare
+Curabitur nec massa ut est fringilla lobortis sed ut purus.
+FTEE bigout1.txt bigout2.txt
+Sed ornare, purus nec iaculis pretium, dui nisl accumsan turpis, accumsan condimentum arcu ex et ipsum
+Praesent cursus nisi in tincidunt vestibulum
+In malesuada malesuada nibh, et gravida nisl rutrum et
+Nulla facilisi
+Nunc efficitur lobortis lectus id faucibus
+Praesent vestibulum quis lectus a facilisis
+Nunc tortor dolor, varius at erat sed, tempus bibendum augue
+Suspendisse congue placerat augue, volutpat convallis nisl accumsan ut
+Ut tincidunt tincidunt ornare
+Cras erat orci, tempor sit amet tellus non, congue vestibulum lectus
+Duis sed libero efficitur lacus dapibus pulvinar vel non tellus
+Phasellus pellentesque, quam sed mattis dapibus, massa massa feugiat odio, nec interdum felis odio eget arcu
+Aliquam consectetur placerat orci, nec semper elit consectetur vitae
+Pellentesque auctor odio dapibus elit rutrum hendrerit.
+FTEE bigout3.txt bigout4.txt
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Morbi efficitur ex eu ante placerat accumsan
+Praesent eu semper ligula, vel ultricies risus
+Nunc orci massa, rhoncus ac commodo ut, euismod at augue
+Vivamus mollis dapibus sollicitudin
+Curabitur dignissim libero ut sem finibus pulvinar
+Donec mattis felis ut risus gravida dignissim
+Cras pharetra, mi at volutpat ornare, mauris ex ultrices arcu, vitae laoreet ipsum lectus at enim
+Integer tristique consequat lobortis
+Curabitur finibus volutpat urna, ut ornare ipsum placerat et
+Praesent sem nisl, pharetra a posuere id, consectetur eu leo.
+FTEE bigout5.txt bigout6.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Nam quis turpis nec massa rutrum feugiat id eu eros
+Sed vulputate tristique lacus eu tincidunt
+Suspendisse bibendum convallis lorem id mollis
+Vestibulum id dui id dui vestibulum sollicitudin eu id justo
+Proin molestie et purus vitae fermentum
+In mollis hendrerit lectus sit amet viverra
+Etiam hendrerit ullamcorper ligula, sed sagittis lorem venenatis sed
+Aliquam finibus libero nisi, nec aliquam erat posuere eu
+Nam quis sagittis ante, ut efficitur arcu.
+FTEE bigout1.txt bigout2.txt
+Vivamus in sapien cursus, pulvinar eros eget, aliquet leo
+Morbi finibus volutpat feugiat
+Sed sed finibus felis
+Nam gravida sagittis velit, id pulvinar nisi
+Sed mauris justo, dapibus a leo at, imperdiet ultrices neque
+In ante diam, tincidunt in vulputate sit amet, auctor at eros
+Pellentesque quis metus non quam consectetur rutrum tempor ut lorem
+Donec sollicitudin tellus at vulputate egestas
+Sed convallis odio a elit lacinia scelerisque
+In hac habitasse platea dictumst
+Sed euismod id ligula eget porttitor
+Pellentesque maximus, metus id malesuada pellentesque, nisl sapien sodales odio, sed blandit leo augue id lorem
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Donec lobortis, mi nec volutpat placerat, ante dolor mollis lacus, egestas bibendum magna turpis vitae velit.
+FTEE bigout3.txt bigout4.txt
+In imperdiet nibh et magna maximus, ut vulputate lectus dictum
+Nunc suscipit nibh arcu, eu luctus ex aliquam vitae
+Integer laoreet purus non urna consequat blandit
+Curabitur sit amet iaculis neque, quis pretium nulla
+Vivamus ut lectus velit
+Phasellus a arcu mi
+Praesent sit amet efficitur lacus, nec pharetra dui
+Duis risus felis, accumsan in mattis pharetra, aliquam vel tortor
+Nulla vel vestibulum felis, ac pharetra diam
+Aenean vel tristique neque
+Pellentesque imperdiet ipsum id dolor auctor gravida
+Aliquam sagittis odio sed lacinia feugiat
+Nunc vulputate ornare lectus, in congue sem fringilla ac.
+FTEE bigout5.txt bigout6.txt
+Cras at sem posuere sem suscipit hendrerit
+In suscipit rutrum magna, sit amet vehicula arcu faucibus nec
+Donec sed sapien tincidunt, ornare lectus eget, dignissim mauris
+Vivamus pharetra metus nec ex vulputate, ut accumsan ante consectetur
+Nam condimentum, ligula at ultricies varius, eros sem posuere dui, at faucibus neque est et dui
+Nulla ultricies interdum urna eu ullamcorper
+Aenean a dolor suscipit lorem auctor gravida id a neque
+Sed hendrerit rutrum mi, vel venenatis erat iaculis et
+Duis facilisis placerat ex
+Integer cursus dolor nec convallis sagittis
+Suspendisse interdum lacus at convallis mattis.
+FTEE bigout1.txt bigout2.txt
+Fusce sem elit, congue ut commodo eu, imperdiet sit amet leo
+Integer dapibus quam in turpis tempus, ut facilisis ligula pellentesque
+Mauris elementum tempus felis et convallis
+Cras eu sem non nulla pharetra dignissim
+Integer non felis velit
+Integer at augue turpis
+Fusce iaculis ullamcorper luctus
+Donec in lorem lorem
+In et metus sed orci mollis fermentum blandit eget eros
+Etiam justo ante, posuere vel eros id, aliquam bibendum ante.
+FTEE bigout3.txt bigout4.txt
+Aenean lobortis sem lacus, quis sollicitudin risus porta sit amet
+Ut dignissim dolor sit amet ex rutrum, sed sagittis justo condimentum
+Nullam vitae turpis in sapien vestibulum efficitur et eget erat
+Aenean ut efficitur enim, vitae tempor quam
+Vestibulum id lacus maximus, iaculis ex eget, venenatis quam
+Vivamus semper rhoncus ex, ac luctus tellus hendrerit ac
+Proin ut sapien massa
+Etiam quis quam aliquet, malesuada dui at, ornare leo
+Phasellus elit massa, viverra sed est id, mattis fringilla enim
+Phasellus non iaculis eros, non cursus ligula
+Nullam vestibulum in ex vitae lacinia
+Sed malesuada nibh quis leo consequat pulvinar
+In eleifend auctor risus
+Morbi congue mauris nisi, quis tincidunt orci finibus vitae
+Quisque tempus consectetur enim, ac condimentum urna bibendum ac
+Pellentesque volutpat, ligula commodo rhoncus rhoncus, mauris massa viverra velit, ac hendrerit neque nibh vitae lacus.
+FTEE bigout5.txt bigout6.txt
+Aenean at consequat elit, a porta risus
+Donec risus lectus, tincidunt eget varius eleifend, interdum vel purus
+Cras nec feugiat nisi
+Praesent urna lectus, ornare non sapien sit amet, porta imperdiet orci
+Fusce euismod nunc et risus mattis pulvinar
+Curabitur molestie posuere odio, ultrices blandit leo mattis hendrerit
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Quisque ex dui, ullamcorper nec quam et, tincidunt venenatis lorem
+Nunc varius ligula quis felis laoreet venenatis
+Nam egestas mauris eu imperdiet sagittis
+Vivamus id sapien orci
+Fusce lacinia lobortis sapien id molestie.
+FTEE bigout1.txt bigout2.txt
+Curabitur dictum tempus leo ut pharetra
+Quisque quis lectus vel tellus semper viverra
+Nunc cursus diam et maximus aliquam
+Praesent nisi elit, aliquam at rutrum at, ornare ac lectus
+Fusce hendrerit pulvinar metus, eu lacinia elit malesuada sit amet
+Quisque quis lectus vel purus eleifend aliquam sed sed nisi
+Suspendisse lobortis vehicula mi
+Vivamus arcu erat, laoreet ac nisi nec, mattis porta enim
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin feugiat efficitur auctor
+Nulla et tellus lorem
+Nullam sed feugiat elit, sit amet vestibulum arcu
+Donec sed enim nulla
+Duis in justo rutrum, hendrerit turpis quis, finibus lorem
+Cras vitae arcu eu metus maximus vehicula.
+FTEE bigout3.txt bigout4.txt
+Nunc sit amet nisi tortor
+Quisque a dolor ullamcorper, congue sem ut, blandit diam
+Mauris eleifend fringilla fermentum
+Duis sed mi a lorem placerat varius sed vel elit
+Ut eget malesuada libero, in ultricies est
+Donec non orci maximus, sodales neque at, facilisis enim
+Pellentesque tristique nibh purus, eget lacinia orci interdum tristique
+Vestibulum sit amet feugiat libero
+Nulla urna elit, molestie ac urna sed, cursus facilisis erat
+Nulla rutrum nisl convallis libero vestibulum vestibulum
+Suspendisse dignissim nisi in pretium fringilla
+In eros quam, fermentum sed turpis ut, fringilla aliquet nunc
+Sed vitae luctus nulla
+Mauris fringilla odio enim, at ullamcorper eros molestie a
+Sed lectus lectus, tempor in sem maximus, porttitor hendrerit ligula.
+FTEE bigout5.txt bigout6.txt
+Suspendisse nunc lacus, tempor vel cursus et, blandit in eros
+Integer sodales lorem sem, et porttitor tortor fringilla sit amet
+Sed ac metus in felis placerat congue et sit amet diam
+Curabitur tempus interdum feugiat
+Aliquam ut lectus eu arcu sollicitudin dignissim eget hendrerit ligula
+Nullam auctor quis felis sit amet porta
+Nam sit amet turpis enim
+Donec rhoncus interdum libero a tempor
+Duis eget vehicula lorem
+Aliquam bibendum, urna eu vestibulum suscipit, est purus aliquet diam, a aliquam neque arcu in leo
+Nulla facilisi
+Ut non ex arcu
+Nulla et sollicitudin sem, ac fringilla elit
+Sed sodales elementum magna ut tincidunt
+Praesent dignissim, libero eget semper convallis, erat dolor dictum ipsum, sit amet hendrerit urna lectus nec justo.
+FTEE bigout1.txt bigout2.txt
+Etiam turpis ante, rutrum a nulla eu, lobortis condimentum erat
+Donec turpis mi, dictum ac tincidunt id, rhoncus non dui
+Nam nec hendrerit ipsum, vitae commodo orci
+Donec et nunc lorem
+Sed ut laoreet tortor
+Integer dignissim nulla porta feugiat cursus
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi dapibus ex quis mauris eleifend interdum elementum eget erat.
+FTEE bigout3.txt bigout4.txt
+Cras finibus congue tristique
+Etiam vehicula tellus fringilla neque commodo commodo
+Vestibulum risus odio, ullamcorper et nisi sit amet, posuere efficitur nisl
+Nulla vitae dui nec quam lobortis suscipit
+Quisque ornare elementum mi, vel laoreet dolor interdum sed
+Donec volutpat nunc in ullamcorper lobortis
+Nullam ex elit, consequat non consectetur at, convallis non lectus
+Aliquam erat volutpat
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+FTEE bigout5.txt bigout6.txt
+Etiam odio justo, finibus ac orci sit amet, fermentum pellentesque risus
+Aliquam pretium nec lacus vitae tempor
+Morbi in orci dui
+Vivamus congue aliquam turpis sed placerat
+Vivamus luctus dolor sit amet lectus luctus, in tempor arcu auctor
+Etiam gravida, mauris tempus rhoncus pretium, nunc tellus cursus eros, egestas pulvinar urna enim ac tortor
+Pellentesque a nunc lobortis, euismod turpis eget, rutrum magna
+Mauris finibus neque consectetur velit faucibus fringilla
+Vivamus ut sem rhoncus, dignissim ex sit amet, ornare felis
+Integer sed sapien magna
+Sed rhoncus tincidunt fermentum
+Quisque et ante augue
+Sed finibus, quam sed laoreet rutrum, ante orci sagittis justo, vel faucibus magna nisl a sem.
+FTEE bigout1.txt bigout2.txt
+Nam a diam in urna lobortis porta
+Fusce non quam commodo, tincidunt dolor eget, congue mauris
+Pellentesque faucibus neque justo, et ornare turpis sagittis non
+Nullam fermentum eros mauris, eget cursus mauris pulvinar quis
+Aliquam in massa at purus imperdiet tincidunt molestie ut sem
+Aliquam molestie, mi a lobortis ultricies, ex libero suscipit quam, a venenatis diam nulla sit amet ex
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Integer consectetur odio dictum egestas laoreet
+Aliquam ac ligula nec magna imperdiet imperdiet ac non ipsum
+Maecenas scelerisque accumsan sodales.
+FTEE bigout3.txt bigout4.txt
+Donec sit amet fermentum arcu
+Donec laoreet hendrerit lectus non volutpat
+Donec molestie turpis ut nisl feugiat, sit amet volutpat neque semper
+Aliquam quis euismod sapien, id congue dui
+Aenean auctor hendrerit tortor non dictum
+Donec sed sollicitudin felis
+Vestibulum nulla mi, mattis eget ante ut, tincidunt sodales ante
+Proin vitae mauris a risus fermentum consequat ac a mauris
+Fusce auctor augue sed massa cursus, sagittis facilisis erat mollis
+Integer eu lectus sed eros porttitor lobortis
+Cras dolor sem, tempus at tincidunt eget, malesuada non nisl
+Phasellus ac odio non tortor viverra lacinia
+Nam convallis vulputate est, vel egestas leo vestibulum ut
+Interdum et malesuada fames ac ante ipsum primis in faucibus.
+FTEE bigout5.txt bigout6.txt
+Ut vel mauris mollis, bibendum tortor eget, eleifend magna
+Sed sit amet mauris et turpis convallis pretium
+Vivamus ac porttitor magna, et elementum ipsum
+Phasellus sit amet urna id enim porta porttitor
+Aenean at lobortis est
+Nullam semper vehicula mi, ut semper urna molestie nec
+Nunc ut leo id diam feugiat pulvinar
+Pellentesque eget bibendum est
+Duis fermentum tincidunt fermentum
+Sed mi justo, rhoncus finibus pellentesque ut, condimentum vel tellus
+Nunc dapibus erat risus, ac volutpat odio tristique pulvinar
+Vivamus consectetur porta accumsan
+Morbi vitae nisl lectus
+Fusce orci nulla, finibus ac placerat sed, mattis ut diam
+Ut tristique arcu nec dui consequat lobortis.
+FTEE bigout1.txt bigout2.txt
+Duis at feugiat sem
+Aliquam nec augue sapien
+Cras libero tortor, tristique nec consequat eget, pellentesque sit amet neque
+Integer diam est, auctor nec iaculis quis, dignissim ultricies est
+Curabitur tristique lectus enim, molestie egestas magna ornare eu
+Vestibulum porta, dui vitae dictum tristique, lectus odio ullamcorper nisi, et hendrerit nibh ante sit amet leo
+Quisque ultricies porttitor nibh sed imperdiet
+Integer nibh urna, pulvinar quis ipsum id, sodales convallis turpis
+Pellentesque bibendum eleifend ipsum at tempus
+Integer pulvinar condimentum ante id hendrerit
+Vivamus vehicula turpis nibh, non congue magna pharetra sed
+Morbi eget scelerisque magna.
+FTEE bigout3.txt bigout4.txt
+Nullam porttitor nisl in ex semper laoreet
+Fusce ac rhoncus lectus
+Morbi imperdiet lacus non vulputate accumsan
+Nunc luctus maximus sapien non pulvinar
+Nam id neque maximus, faucibus nunc ac, accumsan neque
+Vivamus semper mollis mauris at congue
+Phasellus eu ornare metus
+Vestibulum at consequat est
+Interdum et malesuada fames ac ante ipsum primis in faucibus.
+FTEE bigout5.txt bigout6.txt
+Quisque dictum neque enim, sit amet ultricies turpis tempor quis
+Etiam dolor augue, tincidunt eget mauris a, interdum ultrices dolor
+Aliquam condimentum efficitur ligula, sit amet cursus risus ullamcorper sed
+Cras tempus cursus est a posuere
+Nam placerat porta ligula sed faucibus
+Vestibulum nulla odio, sollicitudin sit amet volutpat at, ullamcorper eu nisi
+Nulla quam enim, rutrum auctor arcu eu, laoreet consectetur ex
+Proin blandit tincidunt libero non consequat
+Sed efficitur libero in ante feugiat venenatis
+Suspendisse suscipit pulvinar nisl at finibus
+Mauris sed tellus turpis
+Phasellus neque nibh, feugiat eu dui vitae, ultrices eleifend ante.
+FTEE bigout1.txt bigout2.txt
+Cras iaculis mi et mi pulvinar condimentum
+Morbi hendrerit et leo id imperdiet
+Fusce imperdiet consequat sagittis
+Nulla aliquam tortor ut leo vulputate blandit et eget ipsum
+Morbi purus odio, porttitor at ultrices ac, consequat nec mi
+Integer ut libero eget dui rhoncus interdum
+Nullam urna ex, elementum vel ipsum a, luctus dapibus ligula
+Sed tincidunt convallis porta
+Vestibulum rhoncus felis nec est accumsan elementum
+Phasellus sed odio ligula.
+FTEE bigout3.txt bigout4.txt
+Proin augue lectus, malesuada eget mattis ac, ullamcorper eu ex
+Nulla ullamcorper ultricies mauris ac pretium
+Ut sollicitudin sed erat non tempus
+Nunc blandit, nibh nec mattis iaculis, quam enim varius dui, sed auctor felis lorem et risus
+Nulla tincidunt pellentesque mollis
+Etiam id sagittis neque
+Sed semper orci quis auctor bibendum
+Nunc lobortis orci at lorem accumsan pharetra.
+FTEE bigout5.txt bigout6.txt
+Maecenas euismod dolor turpis, ut sollicitudin augue vulputate sit amet
+Mauris tincidunt est vel leo tincidunt dignissim
+Curabitur et mollis nulla
+Integer leo quam, imperdiet vel leo a, sagittis venenatis lectus
+Sed et scelerisque enim
+Praesent suscipit tortor libero, eu tristique purus efficitur at
+Aliquam dapibus lobortis purus, eu sagittis erat tristique in
+Phasellus cursus, quam tincidunt finibus blandit, quam odio ullamcorper ligula, sed condimentum nibh sem sodales quam
+Vestibulum sed ligula interdum, maximus elit at, tincidunt erat
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Integer imperdiet lacus magna, at vulputate lorem varius eu
+Vestibulum sit amet posuere ante
+Etiam ex eros, scelerisque at porta vel, posuere quis leo
+Nunc ac luctus massa, ut dignissim purus
+Quisque quis eros non urna porta fermentum
+Donec quis blandit metus.
+FTEE bigout1.txt bigout2.txt
+Nullam ac magna suscipit, venenatis nunc at, consectetur neque
+Morbi finibus massa ligula, vitae commodo orci tristique eu
+Morbi at ex feugiat, egestas quam ut, maximus erat
+Praesent quis commodo felis
+Mauris gravida, sapien in gravida fringilla, ex purus tincidunt nulla, sed vehicula purus nibh in mi
+Integer a consectetur mi
+Quisque iaculis lorem eu elit suscipit, eu mollis diam volutpat
+In hac habitasse platea dictumst
+Nulla sed commodo nunc, et aliquam purus
+Proin elementum elit vestibulum, scelerisque lorem in, faucibus diam
+Donec mattis pulvinar ullamcorper
+Vestibulum convallis elit quis magna rhoncus, vel pellentesque mauris porta.
+FTEE bigout3.txt bigout4.txt
+Cras sodales ultricies ullamcorper
+Nunc vel nisi rutrum, volutpat diam vitae, commodo augue
+Praesent rhoncus purus et nisl fringilla, et vehicula purus ornare
+Duis ullamcorper neque eu velit ultrices euismod
+Pellentesque blandit in dui ac fringilla
+Quisque malesuada porttitor vulputate
+Nam vel ligula vitae purus semper scelerisque ac at quam
+Praesent nec lobortis tellus.
+FTEE bigout5.txt bigout6.txt
+Donec eros tortor, tristique vitae magna vel, fringilla luctus dui
+Aliquam ac lacinia tortor
+Aliquam sodales erat vel convallis feugiat
+Aliquam dictum metus tortor, vitae euismod purus fringilla id
+Suspendisse urna enim, efficitur id volutpat ac, pellentesque sit amet mi
+Phasellus faucibus hendrerit sapien, porttitor interdum risus laoreet vitae
+Nam accumsan sit amet orci a varius
+Suspendisse egestas enim vel condimentum suscipit
+Aenean in rhoncus sapien.
+FTEE bigout1.txt bigout2.txt
+Aenean scelerisque consectetur ligula et fermentum
+Aenean id turpis mollis, feugiat lorem sit amet, consectetur augue
+Fusce diam enim, lobortis eu magna ac, tempus hendrerit dui
+Curabitur vitae nunc gravida, fringilla odio sit amet, cursus nibh
+Aliquam molestie mauris non arcu euismod maximus
+Nulla facilisi
+Aenean efficitur tellus enim, ac bibendum magna dictum ut
+Phasellus ac volutpat justo
+Curabitur id faucibus urna
+Vestibulum id urna a lacus convallis lobortis
+In sed enim congue, egestas purus id, mollis lacus.
+FTEE bigout3.txt bigout4.txt
+Sed dignissim erat a dolor tempus condimentum
+Fusce justo elit, posuere eget mi sit amet, aliquet faucibus ipsum
+Cras congue enim id tellus laoreet tristique
+Mauris nec euismod quam
+Aenean condimentum elit a ipsum cursus tempus
+Morbi facilisis quis tortor convallis vehicula
+Etiam vel velit facilisis, gravida leo non, tincidunt sem.
+FTEE bigout5.txt bigout6.txt
+Etiam ultrices ornare molestie
+Cras sodales rutrum diam, et sodales ex tempus a
+Aenean commodo, orci eu sodales egestas, nisi dui mollis dolor, ac eleifend sapien nibh vel velit
+Fusce ipsum erat, congue eu ipsum vitae, commodo vehicula tortor
+Nam ac leo augue
+In lectus lorem, sodales a volutpat sit amet, tempor ac eros
+Vestibulum a tellus ultricies, viverra mi in, tincidunt urna
+Mauris consequat fermentum ex vestibulum molestie
+Nulla consequat quis lectus vulputate mattis
+Donec laoreet pulvinar hendrerit
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Sed id tempor justo, tincidunt lacinia arcu.
+FTEE bigout1.txt bigout2.txt
+Aliquam non fringilla mauris, et maximus enim
+Etiam nec turpis at dui blandit elementum sit amet a orci
+Vestibulum venenatis ante ullamcorper sem varius, venenatis porttitor arcu lacinia
+Donec congue, lorem ut feugiat vehicula, tellus magna tristique lorem, ut suscipit tortor mi et dui
+Curabitur orci lacus, posuere id lorem vitae, interdum pharetra tellus
+Quisque convallis magna urna, nec mattis velit imperdiet ut
+In pellentesque nunc id elit feugiat mattis
+Nulla nec erat vehicula, blandit lectus at, hendrerit metus
+Vestibulum cursus ullamcorper quam id porttitor
+Mauris pharetra orci vel mattis volutpat
+Donec at lacus mauris.
+FTEE bigout3.txt bigout4.txt
+Quisque a magna sed sapien porttitor pharetra in non ante
+Suspendisse potenti
+Sed nisi justo, venenatis eget congue sit amet, tempor quis eros
+Nulla pellentesque elementum ipsum, quis placerat lectus elementum a
+Vestibulum in sagittis neque
+Aliquam id orci posuere, auctor mauris maximus, dignissim elit
+Duis pellentesque quis nisi nec aliquam
+Proin auctor a tortor eget posuere
+Donec vel vulputate velit
+Praesent aliquam accumsan eleifend
+Curabitur consectetur, lacus id tempor faucibus, leo urna imperdiet mauris, sit amet tincidunt turpis nisi eu nibh
+Vivamus posuere malesuada pellentesque
+Mauris ac urna nec augue lacinia viverra in ut lectus
+Integer vehicula massa vel dui sodales bibendum.
+FTEE bigout5.txt bigout6.txt
+Cras iaculis facilisis lorem, vitae euismod justo ultrices nec
+Nullam ut dolor vel sapien mattis dictum
+Donec ornare mi eget sodales euismod
+Curabitur dignissim metus consectetur, lobortis nulla ut, finibus purus
+Morbi eget rhoncus felis
+Quisque ac fringilla purus, a facilisis ligula
+Pellentesque cursus turpis in finibus imperdiet
+Nam mattis suscipit porttitor
+Sed libero lorem, accumsan a risus et, luctus aliquam mi
+Quisque id imperdiet metus.
+FTEE bigout1.txt bigout2.txt
+Donec volutpat enim nec turpis mattis blandit
+Nullam consequat eros id turpis malesuada tincidunt a in tortor
+Pellentesque laoreet tortor non nunc vulputate, vitae lobortis magna pretium
+Nullam at eleifend nisl
+Integer sit amet ante nisi
+Vivamus lacinia diam a scelerisque accumsan
+Phasellus fermentum dignissim tortor iaculis pharetra
+Sed ullamcorper felis vel aliquet malesuada.
+FTEE bigout3.txt bigout4.txt
+Quisque sodales arcu vel sem sollicitudin maximus
+Mauris tristique massa eget leo volutpat dictum id id justo
+Donec augue odio, rutrum ac ante nec, sagittis elementum massa
+Maecenas congue ornare cursus
+Ut tincidunt justo quis mauris malesuada, vitae pellentesque ex commodo
+Praesent dui sem, tincidunt quis sodales ut, maximus vitae ante
+Nunc tincidunt velit molestie nunc ultrices, non semper lorem tristique.
+FTEE bigout5.txt bigout6.txt
+Duis lectus massa, blandit eget augue viverra, commodo efficitur arcu
+Curabitur sit amet nunc eu velit congue placerat nec eu ligula
+Aliquam leo ex, sollicitudin eu orci quis, tincidunt efficitur magna
+Pellentesque faucibus, mauris ut placerat rhoncus, risus orci cursus metus, tristique cursus nibh eros vitae erat
+Fusce sed tellus enim
+Vestibulum eu nisl massa
+Cras eleifend ligula non lorem commodo, ultricies placerat sem maximus
+Praesent est sapien, tempor vitae euismod a, aliquet nec augue.
+FTEE bigout1.txt bigout2.txt
+Nam cursus suscipit diam semper auctor
+Praesent porta aliquam purus, vel euismod mi euismod venenatis
+Fusce at dolor justo
+Ut eu elit orci
+Pellentesque aliquam urna sapien, et luctus felis tempor vitae
+Cras odio odio, sodales a posuere a, dictum id leo
+Mauris dignissim leo nec lectus luctus euismod.
+FTEE bigout3.txt bigout4.txt
+Fusce faucibus mollis diam
+Nulla facilisi
+Morbi porta vitae orci rhoncus blandit
+Integer rutrum dignissim orci sed porttitor
+Praesent fermentum feugiat mi
+Nulla pharetra vestibulum bibendum
+Fusce nec justo non diam imperdiet malesuada non a ipsum
+Pellentesque et condimentum neque, porttitor pretium quam
+Praesent egestas dui id nulla finibus, ut consectetur arcu convallis
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Maecenas dictum in sem sed rutrum
+Donec eleifend bibendum nunc, id euismod leo feugiat nec
+Etiam ac ante ac elit aliquet convallis
+Mauris lacinia auctor dui, sed molestie libero euismod ornare
+Duis imperdiet gravida commodo
+Nullam luctus fermentum luctus.
+FTEE bigout5.txt bigout6.txt
+Aenean feugiat enim eu diam ullamcorper bibendum
+Suspendisse porta est neque, nec scelerisque velit bibendum a
+Maecenas vitae eleifend velit
+Aenean lobortis, sapien a tristique rutrum, sapien augue euismod nibh, id consequat lacus risus vitae ex
+Morbi a elit arcu
+Sed tincidunt velit at efficitur scelerisque
+Nam sed arcu quis dolor euismod placerat sit amet vitae lorem
+Duis vitae quam at risus lobortis lobortis.
+FTEE bigout1.txt bigout2.txt
+Donec nec massa faucibus, imperdiet est dignissim, placerat orci
+Phasellus et hendrerit est, ut eleifend metus
+Vestibulum a iaculis nulla
+Etiam blandit pellentesque enim sit amet tristique
+Nunc ante est, molestie non posuere nec, aliquet eu ligula
+Fusce quis lacus pharetra, ultrices erat ut, convallis leo
+Maecenas et elit pulvinar, lacinia velit quis, maximus elit
+Donec sed orci enim.
+FTEE bigout3.txt bigout4.txt
+Mauris vel blandit orci
+Sed pretium sodales velit eu aliquet
+Suspendisse interdum quam augue, et finibus enim pellentesque in
+Suspendisse et dolor sit amet eros dignissim tempus
+Donec consectetur nulla eget enim egestas varius
+Nulla ullamcorper, mauris quis posuere elementum, sem enim volutpat velit, eget tincidunt nibh massa sit amet nulla
+Mauris sem augue, accumsan in egestas in, elementum sit amet tortor
+Proin elit nulla, blandit non urna ut, cursus lobortis mi
+Maecenas fermentum ultricies eleifend
+Pellentesque erat nisl, semper vel arcu ut, congue egestas lacus
+Phasellus et cursus leo
+Proin eget dui sit amet nisi consectetur imperdiet eu ac dui
+Phasellus auctor mi non porta tristique
+Etiam nibh nulla, congue eu placerat quis, posuere eget dolor.
+FTEE bigout5.txt bigout6.txt
+Praesent luctus tempus massa in posuere
+Quisque ullamcorper erat nulla, ac interdum odio posuere lacinia
+Donec efficitur id lacus et pharetra
+Phasellus turpis neque, commodo eget felis nec, posuere condimentum felis
+Vivamus mi enim, varius ut vulputate quis, bibendum vitae diam
+Nam id viverra orci, at gravida risus
+Phasellus sagittis ante eu orci suscipit, et auctor velit blandit
+Duis gravida euismod sapien in aliquam
+Nam volutpat neque orci, ac rhoncus tortor imperdiet in
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam ut augue venenatis, cursus enim commodo, mattis orci.
+FTEE bigout1.txt bigout2.txt
+Nam viverra nunc augue, pharetra malesuada sapien pretium et
+Pellentesque volutpat ipsum vel erat interdum ultricies
+Duis rhoncus lacus in leo feugiat iaculis
+Nulla consequat gravida ligula sed scelerisque
+Maecenas vel tempor ante
+Suspendisse vitae eleifend est
+Cras vestibulum quis dolor ac euismod
+In vitae mauris maximus, feugiat justo non, bibendum nisl
+Vestibulum rhoncus et purus a auctor
+Aliquam metus massa, maximus in eros in, hendrerit consequat arcu
+Donec eu odio vulputate, lacinia lorem sed, dictum mi.
+FTEE bigout3.txt bigout4.txt
+Proin nisl libero, consectetur nec nulla quis, efficitur posuere nibh
+Phasellus condimentum enim arcu, non viverra purus scelerisque et
+Vestibulum metus leo, posuere porttitor porttitor non, eleifend in sem
+Nam dapibus sem libero, ullamcorper aliquet turpis hendrerit et
+Nullam id nibh iaculis, rutrum nisl non, gravida risus
+Aliquam dolor tortor, posuere a interdum eu, sagittis in tellus
+Praesent consequat finibus ornare
+In laoreet nunc vestibulum eros tristique sodales
+Fusce rutrum varius enim, et ullamcorper nisl consequat quis.
+FTEE bigout5.txt bigout6.txt
+Fusce eleifend fermentum dolor, non tristique felis accumsan et
+Nullam semper eros libero, in accumsan diam tempor semper
+Quisque efficitur, massa vel interdum posuere, nisl neque tempus ante, vel posuere enim libero eget ante
+Donec bibendum odio in aliquam lacinia
+Integer orci ante, imperdiet et ante mollis, tempus tincidunt turpis
+Nullam aliquet egestas nunc, ac ultricies eros
+Proin condimentum pharetra scelerisque
+Vestibulum porttitor nisi eget mauris aliquam cursus
+Nam in consequat turpis
+Curabitur eget nulla ligula
+Phasellus commodo aliquam turpis quis tincidunt
+Nunc vitae tempor nisi, in facilisis dolor
+Nunc malesuada urna ac pretium interdum.
+FTEE bigout1.txt bigout2.txt
+Nam elementum viverra augue vel tempus
+Donec lacinia odio sed fringilla maximus
+Nam faucibus massa purus, et fringilla augue venenatis sit amet
+Sed tempus, quam quis fringilla consequat, ante eros rutrum purus, molestie vehicula nunc sapien nec sem
+Mauris sagittis, velit id auctor hendrerit, sapien odio semper felis, eget luctus sem mauris sit amet arcu
+Mauris dapibus leo et vulputate pharetra
+Maecenas tristique in nisi eget condimentum.
+FTEE bigout3.txt bigout4.txt
+Morbi nisi quam, tincidunt sed aliquet vitae, auctor id tortor
+Aliquam fermentum ullamcorper nisl, ac porttitor felis egestas ut
+Mauris varius nibh sed mauris sagittis egestas
+Nam ultrices tellus in ligula sollicitudin, a congue est venenatis
+Fusce rutrum venenatis posuere
+Fusce tincidunt vulputate orci, sed convallis massa ultrices ac
+Praesent quis dictum risus, id pharetra diam
+Aliquam egestas neque in diam fringilla, ut interdum arcu faucibus
+Curabitur a odio dui.
+FTEE bigout5.txt bigout6.txt
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Aliquam rutrum, metus fringilla feugiat tincidunt, nulla nisl efficitur quam, vitae varius enim urna in urna
+Sed ullamcorper libero sit amet dolor vulputate, eget gravida odio lobortis
+Etiam vel elit mauris
+Praesent hendrerit sed justo eu mattis
+Sed ultrices nulla et mauris tempor, at facilisis purus dictum
+In pulvinar maximus gravida
+Ut rutrum pharetra dignissim
+Ut lobortis odio eu ipsum faucibus, nec commodo ligula scelerisque
+Nullam sagittis vehicula elit, eu hendrerit quam aliquet a
+Mauris sit amet ex eu justo scelerisque aliquam nec sit amet quam
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eget semper quam, in rutrum tortor.
+FTEE bigout1.txt bigout2.txt
+Praesent eu arcu nisl
+Etiam quis elementum dui, et tempus lectus
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Etiam sit amet egestas augue
+Proin auctor, tellus in tristique blandit, ligula massa rutrum enim, et facilisis massa risus ut urna
+Ut vestibulum metus et arcu aliquam, eget sollicitudin lorem feugiat
+Donec mollis nisi eu commodo dapibus
+Ut rhoncus enim in ex efficitur lacinia
+Cras pellentesque risus odio, id molestie nisi ullamcorper at
+Donec pretium tristique magna a mollis
+Quisque ut libero sit amet dui auctor posuere
+Interdum et malesuada fames ac ante ipsum primis in faucibus.
+FTEE bigout3.txt bigout4.txt
+Proin eget vehicula leo
+Etiam leo nibh, convallis eu iaculis in, egestas eget dolor
+Donec scelerisque tincidunt nunc et maximus
+Proin vitae quam gravida, feugiat urna vel, sodales sem
+Proin lectus massa, convallis quis dapibus ut, malesuada ac augue
+Nullam posuere eu nunc eu eleifend
+Praesent lorem erat, efficitur sed fermentum eu, ullamcorper ut lacus
+Etiam lacinia, tortor at porta feugiat, metus purus feugiat urna, vitae faucibus justo mi a ante
+Integer sodales posuere sollicitudin.
+FTEE bigout5.txt bigout6.txt
+Donec id libero vestibulum, dignissim mauris eu, facilisis sapien
+Quisque pharetra purus nec mauris fringilla vulputate
+Nulla ultricies accumsan egestas
+In diam ex, ullamcorper ut interdum eget, volutpat id nisi
+Morbi a ipsum vitae enim faucibus porttitor ut a lectus
+Aliquam eu viverra ante
+Praesent vehicula consequat velit, vel mattis est efficitur a
+Aliquam odio tellus, pulvinar quis consequat nec, hendrerit quis justo
+Quisque libero mauris, sodales maximus ipsum id, accumsan scelerisque justo
+In ut justo imperdiet, blandit orci ut, rhoncus elit
+Vestibulum finibus nunc ac tortor auctor volutpat ac nec libero
+Proin at gravida magna, ut auctor nibh
+Pellentesque eu luctus arcu
+Nulla facilisi
+Nunc quis dignissim elit.
+FTEE bigout1.txt bigout2.txt
+Fusce erat lorem, convallis nec orci sed, efficitur condimentum nisl
+Nunc vitae luctus tortor
+Fusce feugiat tempor sem ac rutrum
+Quisque rhoncus posuere sollicitudin
+Donec urna felis, porta ac mi et, tristique aliquet massa
+Nunc turpis erat, euismod ut hendrerit ut, convallis vel ligula
+Sed quis lacus in arcu dictum bibendum
+Etiam tempor nulla sed mauris ornare, at finibus lorem vulputate
+Cras lacinia nisi ut magna dictum tempor.
+FTEE bigout3.txt bigout4.txt
+Morbi et libero sed neque porttitor efficitur a ullamcorper justo
+Duis eu sem porta, bibendum dolor sit amet, iaculis mauris
+Etiam auctor lobortis rutrum
+Nunc ut mi dolor
+Fusce malesuada nunc eget tortor sodales sodales
+Sed felis sem, elementum a ligula nec, interdum hendrerit augue
+Quisque quis maximus libero, a accumsan lectus
+Suspendisse a tristique nunc
+Vivamus at dui varius, molestie leo interdum, efficitur urna
+Cras auctor placerat mollis.
+FTEE bigout5.txt bigout6.txt
+Proin lobortis eros quis convallis elementum
+Ut pharetra risus et massa euismod, eu ultricies tellus elementum
+Ut est dui, porttitor facilisis tincidunt at, vehicula sit amet libero
+Integer a augue sapien
+Nulla eu elit enim
+Mauris non sapien elementum, ultrices risus convallis, interdum odio
+Etiam non ex congue, blandit magna eget, cursus nisi
+Curabitur vitae semper sem
+Praesent at luctus nisl
+Donec consequat sem eget nisl sodales placerat
+Integer aliquet tristique convallis
+Mauris et ex ante
+Aliquam sodales sit amet libero quis cursus
+Suspendisse potenti
+Duis aliquam faucibus ipsum nec mollis.
+FTEE bigout1.txt bigout2.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Aenean lobortis vestibulum sem, eu pellentesque urna consequat eget
+Praesent pretium massa id enim dapibus fermentum
+Duis tincidunt mattis porta
+Aliquam eu tortor nec diam fringilla fringilla in sit amet sapien
+Nulla lobortis semper nisl
+Integer a velit sapien
+Praesent placerat sapien lorem, vitae placerat tortor tincidunt vitae
+Donec id neque et elit vehicula porttitor
+Fusce lobortis consequat elit et consectetur.
+FTEE bigout3.txt bigout4.txt
+Pellentesque non congue elit
+Vestibulum pulvinar turpis nulla, vitae suscipit massa lobortis eu
+Sed gravida et neque id hendrerit
+Sed tincidunt sem sem, sit amet posuere orci dapibus at
+Etiam vel dapibus ante, nec interdum enim
+Vestibulum commodo consequat orci, vitae dapibus ligula viverra ac
+Duis vel magna aliquam, dignissim ligula semper, tincidunt augue
+Praesent sed lacus volutpat, mattis erat posuere, malesuada leo
+Phasellus scelerisque justo dictum vehicula porttitor
+Cras condimentum convallis risus in eleifend
+Ut orci lacus, laoreet quis lectus vel, vulputate scelerisque felis
+Fusce pellentesque non est vitae dictum
+Proin euismod elit vel ipsum iaculis imperdiet.
+FTEE bigout5.txt bigout6.txt
+Praesent ultrices facilisis elit
+In finibus, leo sit amet tincidunt convallis, quam diam cursus leo, sed cursus ligula velit vitae eros
+Donec pharetra feugiat nunc sit amet scelerisque
+Quisque commodo dictum sagittis
+Cras volutpat porta justo eu mollis
+Vestibulum nec tellus ut ligula mollis facilisis at vel neque
+Cras a tempor sem
+Donec nulla dui, porta ut mattis id, molestie non elit
+Cras mattis aliquam eros id pretium
+Nulla tellus mauris, congue sit amet velit vitae, fringilla scelerisque nunc
+Donec id metus eu ipsum blandit egestas nec nec est
+Sed sagittis convallis lectus at viverra
+Fusce quis auctor massa
+Vivamus congue facilisis rhoncus.
+FTEE bigout1.txt bigout2.txt
+Nunc neque leo, ultricies eget convallis pretium, laoreet nec magna
+Maecenas nec arcu sed felis cursus elementum
+Pellentesque finibus sollicitudin tellus mattis finibus
+Praesent ex neque, sodales id finibus et, tempus non mi
+Nam ut nulla ultrices ante semper congue quis eu lorem
+Sed sed neque maximus, maximus elit at, mollis mauris
+Vestibulum scelerisque, lacus a auctor euismod, augue lacus vestibulum mi, ut hendrerit elit enim sit amet nulla
+Ut luctus sollicitudin lorem sit amet efficitur
+Mauris scelerisque nisi sem, vitae egestas magna tincidunt eu
+Vestibulum augue ex, porta at orci eu, sagittis rutrum mi
+Aliquam eget dictum tortor
+Etiam tincidunt enim sit amet placerat gravida
+Sed hendrerit tristique ipsum.
+FTEE bigout3.txt bigout4.txt
+Cras et eros congue, cursus mi at, finibus leo
+Proin pulvinar felis neque, at rhoncus justo feugiat nec
+Curabitur volutpat elit aliquam eros ornare, a ultrices orci volutpat
+Curabitur placerat lorem in nulla ultricies malesuada
+Nam mattis malesuada tristique
+Nulla malesuada augue quis arcu pretium sagittis
+Donec ultrices interdum est quis dignissim
+Pellentesque pretium posuere nulla in rutrum.
+FTEE bigout5.txt bigout6.txt
+Morbi ipsum ipsum, tristique a facilisis a, volutpat quis ligula
+Proin a consequat sapien
+Suspendisse vel maximus urna, a fringilla nisl
+Sed non lacus quam
+Etiam ullamcorper odio eu justo tempor, et sollicitudin dui congue
+Nam blandit tempus gravida
+Integer sem enim, tempus vitae ante id, aliquet pulvinar neque
+Curabitur vitae diam viverra, accumsan tortor id, congue eros
+Etiam commodo tristique magna nec convallis
+Aliquam mi metus, luctus sed commodo sit amet, ultricies vel felis
+Sed sit amet augue mattis, placerat libero sed, facilisis ex
+Phasellus aliquam leo elit, vitae pharetra nisi interdum a
+Donec id rhoncus libero
+Etiam posuere finibus lectus a facilisis
+Etiam ut leo sit amet neque mollis semper eget vitae leo.
+FTEE bigout1.txt bigout2.txt
+Nullam eu urna hendrerit, pretium turpis quis, vehicula purus
+Mauris at malesuada mauris
+Etiam lacus tellus, placerat nec eros sed, tempor eleifend urna
+Aliquam volutpat ipsum odio, vitae dictum enim facilisis ut
+In mollis tempus nisl, non tempus est feugiat in
+Donec orci metus, faucibus at elit ac, imperdiet laoreet justo
+Nunc a imperdiet erat, ut consectetur enim
+Fusce facilisis ipsum sit amet massa tincidunt placerat
+Nullam lacinia ultrices vulputate
+Etiam luctus accumsan ipsum ultrices efficitur
+Nulla pellentesque mattis purus in maximus
+Sed purus justo, ultricies malesuada fermentum ut, commodo vel mi
+Vivamus scelerisque nulla nec orci pretium vehicula
+Cras eleifend eu neque vestibulum luctus
+Nulla at elit velit
+Mauris commodo erat quis pharetra tincidunt.
+FTEE bigout3.txt bigout4.txt
+Nam eu nisi massa
+Maecenas mattis tincidunt egestas
+Sed vitae molestie magna
+Nulla orci massa, ornare vitae placerat quis, ultrices non quam
+Nam tristique dolor velit, ut posuere metus fermentum nec
+Duis nec fringilla neque
+Nam sed accumsan est
+Sed dapibus mattis lectus, vitae efficitur massa convallis et.
+FTEE bigout5.txt bigout6.txt
+Quisque ipsum turpis, bibendum facilisis sodales convallis, dapibus nec felis
+Cras tempus diam a mauris euismod congue
+Cras turpis massa, ultrices nec pharetra sit amet, cursus ac quam
+Mauris ultricies sem eros, non vulputate ante bibendum non
+Donec eget arcu porttitor erat posuere rutrum eget ut sem
+Integer sollicitudin felis lectus, non faucibus erat interdum eu
+Nullam tempus nisl quis nunc aliquet, at ornare ex consectetur
+Nullam rutrum placerat blandit
+Maecenas id nunc id massa congue rhoncus
+Vivamus tincidunt non dolor in interdum
+Aenean in imperdiet dui
+Curabitur et nunc eu felis condimentum condimentum a nec risus.
+FTEE bigout1.txt bigout2.txt
+Etiam sollicitudin mattis ultrices
+Phasellus ultrices tellus quis elit feugiat aliquam
+Duis fermentum enim vel magna gravida iaculis
+Duis id auctor arcu
+Duis nisi magna, accumsan at egestas in, ultrices quis odio
+Vestibulum enim lectus, interdum ut purus sed, tincidunt cursus arcu
+Proin hendrerit lectus vel enim dignissim, ut vehicula enim ultrices
+Pellentesque porta augue sit amet sem posuere, et pretium sem fringilla
+Donec justo urna, ornare vitae ante a, convallis suscipit lacus.
+FTEE bigout3.txt bigout4.txt
+Sed fringilla risus a rhoncus egestas
+Aenean euismod massa non risus hendrerit rutrum
+In ut dictum sem, sit amet feugiat nibh
+Sed fermentum nunc molestie, pretium libero ac, efficitur purus
+Aliquam non purus scelerisque, maximus felis nec, molestie orci
+Sed a lectus ac elit semper maximus in blandit odio
+Duis efficitur elit accumsan orci tincidunt viverra
+Donec ut enim et ante pharetra lacinia in quis augue
+Vestibulum imperdiet orci ac mi aliquet sollicitudin
+Duis ut imperdiet urna
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Fusce non enim in mauris lobortis mattis
+Sed sed tincidunt eros, in aliquet velit.
+FTEE bigout5.txt bigout6.txt
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Nullam ullamcorper elementum fermentum
+Aenean accumsan dignissim odio, ac porta ante gravida sed
+Praesent consequat commodo blandit
+Morbi non porta neque
+Morbi finibus sed nunc et ultricies
+In ullamcorper, justo at finibus aliquam, nulla dolor placerat ex, eu pellentesque odio orci a felis
+Duis ultrices mi vitae leo malesuada tristique
+Donec nulla lorem, imperdiet tristique malesuada a, interdum eget dolor
+Aenean ullamcorper, risus at ornare interdum, mauris dui vulputate nisi, in molestie turpis risus vitae sem
+Duis nec aliquet felis, id lobortis magna
+Sed rutrum, purus lobortis blandit rutrum, magna ex lacinia mauris, quis tempor tellus dolor eget libero
+Sed velit mi, volutpat et neque cursus, tempus pellentesque tortor
+Praesent hendrerit tempus lectus imperdiet pulvinar
+Vestibulum pretium massa quis quam cursus, vitae facilisis eros eleifend.
+FTEE bigout1.txt bigout2.txt
+Donec at aliquam ipsum
+Donec nec pulvinar erat
+Duis eget posuere tortor
+Etiam a tellus in enim fringilla eleifend
+Nunc vel feugiat tortor
+Aenean eu suscipit nibh
+Vestibulum viverra, quam et accumsan pretium, est quam eleifend libero, eu accumsan tortor metus sed neque
+Cras molestie vel augue in convallis
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec blandit dignissim rutrum
+Vivamus bibendum auctor convallis
+Aliquam tristique vitae eros et accumsan
+Donec in nunc vestibulum, tempor massa non, semper justo
+In condimentum vehicula tincidunt
+Nullam malesuada urna et ultricies venenatis.
+FTEE bigout3.txt bigout4.txt
+Nam id porta nisi
+Integer convallis quam vitae ligula laoreet, a posuere dolor hendrerit
+Suspendisse rhoncus tortor quis eros dignissim faucibus
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Etiam dapibus, ligula at gravida accumsan, metus ante semper neque, quis sollicitudin elit nulla quis libero
+In quis orci enim
+Mauris dignissim, diam id porttitor pulvinar, quam purus pretium elit, quis imperdiet nisi dui et dolor
+Etiam iaculis, risus et lobortis laoreet, felis metus finibus nisi, at placerat enim felis laoreet justo
+Ut finibus nisl urna, vitae mollis orci egestas id
+Pellentesque erat sem, egestas in magna sed, volutpat commodo velit
+Nunc placerat metus ac maximus luctus
+Etiam rhoncus varius dui vitae vestibulum
+Cras pharetra magna id purus posuere, quis tempor quam volutpat.
+FTEE bigout5.txt bigout6.txt
+Proin vestibulum dolor id odio gravida tristique ac sed mauris
+Donec congue ac lacus ut pretium
+Donec rutrum mi et nunc viverra, non lacinia quam ultrices
+In sit amet vulputate urna
+Cras sagittis enim a porta ullamcorper
+Nulla massa turpis, eleifend interdum mollis a, sagittis tincidunt dui
+Sed metus nisl, sodales at faucibus iaculis, imperdiet id odio
+Vestibulum vel mi lorem
+Sed ac erat nec dui fringilla volutpat at non tellus
+Nulla nibh tortor, tincidunt vitae quam a, finibus pharetra lectus
+In interdum nisl sed venenatis faucibus
+Maecenas vehicula felis in semper porta.
+FTEE bigout1.txt bigout2.txt
+Vestibulum hendrerit dolor nec vehicula semper
+Nam maximus placerat metus, vitae tristique orci dignissim vitae
+Aliquam lobortis neque nec turpis commodo egestas
+Vivamus iaculis lacus ante, a tempus neque tempus a
+Donec vehicula magna ex, vel tempor leo ornare vel
+Etiam mi massa, efficitur at mi eu, euismod finibus velit
+Nam lacinia quam non sapien vestibulum lobortis
+Proin placerat finibus vestibulum.
+FTEE bigout3.txt bigout4.txt
+Morbi felis nibh, lobortis at faucibus pulvinar, consectetur eget augue
+Integer lacinia libero vel nisi porttitor, sed fermentum massa dapibus
+In ipsum ante, ornare sit amet leo facilisis, tincidunt suscipit ex
+Duis quis nisl purus
+Proin consequat ultricies mauris, non iaculis felis iaculis id
+Sed eu purus a arcu varius tempus ac sed nunc
+Phasellus ornare molestie mi commodo gravida.
+FTEE bigout5.txt bigout6.txt
+Nullam consectetur nulla vestibulum, dictum sem non, porttitor augue
+Ut lectus odio, cursus placerat tincidunt non, ultricies et enim
+Pellentesque elementum mi eu lectus cursus commodo
+Phasellus in efficitur nulla
+Curabitur eu malesuada orci
+Ut in eleifend erat
+Vivamus feugiat gravida sem, eget feugiat leo maximus non
+Praesent tincidunt bibendum orci a laoreet
+Nam odio massa, vestibulum at hendrerit rhoncus, imperdiet ac quam
+Nam efficitur vel nisi eu pulvinar
+Sed sit amet dolor gravida, volutpat metus eget, euismod nisi
+Duis id odio pulvinar, volutpat risus eget, fringilla metus
+Sed commodo enim sed est aliquam lobortis
+Vestibulum sit amet ex egestas, egestas ipsum eget, ornare mauris.
+FTEE bigout1.txt bigout2.txt
+Sed tristique auctor mattis
+Mauris ut nulla mauris
+Duis eget arcu cursus lacus fringilla varius ut sagittis augue
+Aliquam vulputate malesuada fermentum
+Vivamus et dolor at neque scelerisque tristique non eget lectus
+Morbi consequat augue at orci imperdiet commodo
+Fusce vitae molestie urna, vulputate blandit purus
+Quisque tincidunt ex sed est varius, non cursus nunc aliquet
+Nam id ex sit amet mi vestibulum scelerisque
+Vestibulum porttitor dictum aliquam
+Vestibulum sed sem blandit, dictum nibh eu, gravida nisl.
+FTEE bigout3.txt bigout4.txt
+Nunc facilisis risus eget velit gravida aliquet
+Nulla vestibulum sapien ut scelerisque maximus
+Sed ut vestibulum augue
+Donec consectetur finibus facilisis
+Pellentesque venenatis nunc eget quam faucibus, ut lacinia dui efficitur
+Sed vel est interdum, vehicula elit nec, elementum mi
+Suspendisse pretium metus dolor
+Pellentesque luctus libero a est porttitor, at vulputate elit imperdiet
+Fusce efficitur tristique feugiat
+Ut fermentum, lorem vel cursus pellentesque, dui tortor congue dolor, vitae euismod purus ex in ex
+Nunc bibendum scelerisque eros, quis rutrum odio
+Ut semper ligula urna, a finibus magna placerat nec
+Fusce sagittis purus ut ex rutrum pretium.
+FTEE bigout5.txt bigout6.txt
+Nam tristique sapien a est finibus mattis
+Cras vel tellus eget nulla imperdiet malesuada
+Etiam ut ultricies elit
+Curabitur vitae luctus urna, sed mattis ex
+Interdum et malesuada fames ac ante ipsum primis in faucibus
+Etiam feugiat urna sed nunc aliquet, id vulputate eros condimentum
+Sed nunc elit, semper eget consequat non, posuere sed purus
+Vestibulum sed fermentum massa, quis convallis nunc.
+FTEE bigout1.txt bigout2.txt
+In ullamcorper facilisis sapien, et viverra purus
+Nunc bibendum lorem velit, ac tincidunt elit egestas ac
+Suspendisse congue neque sed tempor consequat
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Ut fringilla lobortis odio, vel consequat ex eleifend at
+Aenean sed lectus ac velit hendrerit sagittis
+Nullam non auctor risus
+Sed bibendum a neque ac aliquam.
+FTEE bigout3.txt bigout4.txt
+Nullam eleifend felis ac fermentum consequat
+Nam maximus quam eu mattis molestie
+Fusce purus ipsum, commodo eget augue sed, condimentum dictum risus
+Quisque elementum ipsum a urna fringilla fermentum
+Donec gravida leo elit, et eleifend purus efficitur ac
+Ut aliquam mauris velit, in facilisis augue viverra in
+Nunc eget porta nunc
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Nullam auctor varius malesuada
+Suspendisse in venenatis metus, non gravida urna
+Etiam semper, nibh tristique semper ultrices, nunc neque mattis elit, in accumsan augue nunc eu felis
+Donec bibendum vulputate eros, eu vestibulum lorem suscipit in
+Aliquam in tempor ligula
+Morbi lacinia tempor hendrerit
+Vestibulum commodo elit eu aliquam vestibulum.
+FTEE bigout5.txt bigout6.txt
+Pellentesque id ante semper, faucibus orci sagittis, blandit nulla
+In ex nunc, finibus eget est ut, semper volutpat felis
+Quisque lobortis ipsum venenatis tincidunt vestibulum
+Proin feugiat mi sagittis, tempus enim sed, tincidunt nibh
+Sed faucibus libero sit amet ipsum lacinia auctor
+Pellentesque et mollis metus, quis eleifend orci
+Sed a dolor imperdiet, gravida diam et, suscipit lacus
+Donec orci ex, mattis sit amet convallis vel, vulputate pulvinar sem
+Phasellus at purus enim
+Aliquam efficitur dui ut urna lobortis dictum
+Cras accumsan, dui nec iaculis porta, urna lorem euismod sapien, vitae sodales enim neque eget odio
+Duis pretium mi at erat pulvinar, vitae ullamcorper eros imperdiet
+Vivamus at ipsum luctus, sagittis enim quis, porta nisi
+In maximus mollis dui non auctor.
+FTEE bigout1.txt bigout2.txt
+Vestibulum rhoncus ut orci id interdum
+Sed tincidunt felis turpis, non tristique massa faucibus eget
+Etiam malesuada luctus lacus ac hendrerit
+Integer bibendum nunc in ornare iaculis
+Phasellus posuere elit ipsum, iaculis ultrices purus convallis quis
+Sed eu urna at nisl rhoncus congue
+Fusce vestibulum turpis nulla, eu bibendum quam vulputate porttitor
+Vestibulum et condimentum metus
+Proin eu diam augue.
+FTEE bigout3.txt bigout4.txt
+Fusce ut cursus quam
+Ut finibus ligula in tortor placerat dictum
+Praesent egestas risus in augue consectetur, id ultricies eros lobortis
+Maecenas id pretium urna, mattis pharetra magna
+Curabitur semper ligula placerat, vestibulum sapien ut, eleifend risus
+Nulla venenatis augue vel augue sodales, vel interdum nunc molestie
+Donec mollis, dui nec accumsan sagittis, ligula odio lacinia ipsum, in tincidunt risus est eget leo
+Sed sagittis lorem magna, et aliquet ligula molestie at
+Ut ac elit mi
+Curabitur eget libero vulputate, hendrerit mi nec, ullamcorper ante
+Phasellus auctor leo tortor, a laoreet eros lobortis vel
+Phasellus lacinia nulla tincidunt lacus venenatis, vel bibendum purus elementum
+Integer ac tellus non mauris pulvinar malesuada
+Nulla id ex quis enim suscipit eleifend vel eget nisi
+Donec non nibh at risus tincidunt facilisis id in lectus
+Pellentesque feugiat augue quam, eu maximus augue semper ac.
+FTEE bigout5.txt bigout6.txt
+Vestibulum finibus aliquet euismod
+Sed vel erat justo
+Sed hendrerit in arcu quis convallis
+Praesent sagittis rutrum ante, vitae aliquam ipsum rutrum in
+Suspendisse quis scelerisque justo
+In hac habitasse platea dictumst
+Maecenas malesuada purus a lectus sagittis lobortis.
+FTEE bigout1.txt bigout2.txt
+Nullam dignissim eget ipsum id pulvinar
+Donec tortor magna, sagittis quis neque vitae, cursus volutpat ligula
+Aenean dictum, tellus ac placerat egestas, leo leo lacinia sapien, at tincidunt urna metus nec orci
+Interdum et malesuada fames ac ante ipsum primis in faucibus
+Mauris eu pretium massa
+Vivamus id efficitur turpis, elementum efficitur neque
+Mauris fringilla faucibus finibus
+Aenean nunc orci, feugiat at dapibus vitae, dictum non risus
+Aliquam nec nibh ligula
+Pellentesque eleifend gravida diam, eu pulvinar odio sagittis eu
+Sed eu ultrices felis, in convallis sapien
+Nunc condimentum ultrices posuere
+Vestibulum fringilla sodales enim vitae feugiat
+Cras porta sit amet enim ut consequat
+Proin gravida non mi in condimentum.
+FTEE bigout3.txt bigout4.txt
+Praesent ut quam nibh
+Curabitur ullamcorper eu nisl vitae bibendum
+Morbi a nibh convallis, vestibulum tellus in, vulputate nunc
+Integer fermentum libero nec euismod dapibus
+Maecenas et risus sit amet erat pulvinar consequat nec nec metus
+Integer sollicitudin congue pellentesque
+Curabitur eget malesuada nibh, nec tempus felis
+Aliquam vulputate bibendum urna
+Pellentesque ullamcorper tortor sit amet viverra vestibulum
+Quisque quis congue purus
+Aenean mollis malesuada lorem
+Vestibulum pulvinar arcu enim, eget ullamcorper lorem placerat eget
+Donec ac ullamcorper mauris
+Maecenas quis lorem eget lacus interdum interdum
+Nunc interdum nisi vel mattis lobortis.
+FTEE bigout5.txt bigout6.txt
+Nullam erat tortor, viverra a purus in, mattis hendrerit sem
+Proin iaculis ut felis ut condimentum
+Praesent efficitur ipsum eu porta laoreet
+Vestibulum laoreet gravida elementum
+Curabitur pretium ex nisi, at varius erat consequat et
+Phasellus sodales leo in arcu molestie, sed condimentum urna fringilla
+Fusce mollis turpis a sem ultricies, quis sollicitudin nisi rhoncus
+Duis sit amet semper velit, vel accumsan justo
+Suspendisse et lacus luctus, mattis mauris in, pulvinar mauris
+In pretium lectus sed pretium vulputate
+Nunc ultricies nisl vel sodales molestie
+Proin ante augue, rhoncus eget sem viverra, vestibulum ornare elit
+Aliquam eget dolor elit.
+FTEE bigout1.txt bigout2.txt
+Sed vitae pulvinar dolor
+Aenean auctor diam eget convallis tempor
+Cras ut semper nisi, sed pellentesque tellus
+Aenean erat eros, tempus sed massa in, cursus luctus ante
+Phasellus pulvinar leo ac mauris lobortis convallis
+Suspendisse lectus nunc, lacinia in magna in, aliquam eleifend nibh
+Etiam a dolor tincidunt, congue lacus sit amet, pulvinar eros
+Maecenas mattis mollis ligula a dapibus
+Vivamus in diam malesuada libero placerat pharetra.
+FTEE bigout3.txt bigout4.txt
+In feugiat vel mi nec malesuada
+In hac habitasse platea dictumst
+Pellentesque blandit nec eros eu eleifend
+Suspendisse convallis, nibh ac interdum elementum, erat lectus dapibus ex, non aliquet neque sem sit amet libero
+Pellentesque et feugiat orci
+In ac ipsum nec augue convallis interdum
+Vestibulum ultricies quam quis sodales lobortis
+Fusce consequat at libero quis egestas
+Maecenas finibus, urna vel tempus sodales, ligula dolor ullamcorper quam, non convallis lectus purus id felis
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Quisque sodales tellus quis maximus mollis
+Aliquam posuere, nulla nec mollis luctus, tellus lorem rhoncus tortor, vel bibendum nunc augue ut ipsum
+Sed facilisis libero quis purus auctor, ut vulputate dui consectetur.
+FTEE bigout5.txt bigout6.txt
+Cras facilisis nisl et ligula pulvinar, eu molestie turpis gravida
+Nam faucibus tellus pellentesque, egestas dui nec, sodales lectus
+Cras scelerisque lacus enim, nec molestie nulla vulputate sed
+Duis in pulvinar erat
+Donec quis neque sit amet turpis tincidunt maximus
+Cras vehicula erat lacus, eu commodo lorem egestas ac
+Nunc dictum sem et fermentum dignissim
+Morbi at tincidunt tellus
+Suspendisse sit amet urna vel lorem lobortis fermentum sed id libero
+Vestibulum ullamcorper consequat nunc pulvinar semper.
+FTEE bigout1.txt bigout2.txt
+Fusce bibendum, ligula a rhoncus molestie, nunc libero semper odio, vitae ullamcorper leo ante ac lorem
+Aliquam luctus faucibus scelerisque
+In hac habitasse platea dictumst
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Cras condimentum, leo a imperdiet semper, sapien magna sodales magna, sed gravida dolor turpis vitae orci
+Vivamus tortor elit, sollicitudin in massa at, mollis dignissim dui
+Etiam eget dui molestie, venenatis massa sed, efficitur odio
+Quisque sodales volutpat purus vitae semper
+Etiam nec nisi consequat, mollis augue eu, sagittis nulla
+Nam semper metus eget lacinia condimentum
+Proin justo nisl, viverra quis erat vitae, dignissim pellentesque felis.
+FTEE bigout3.txt bigout4.txt
+Mauris ullamcorper dapibus libero quis consequat
+Donec vitae ligula eget justo eleifend porttitor
+In et fermentum diam, quis mollis magna
+Quisque feugiat nisl ut est blandit consectetur
+Aenean non massa lobortis, varius nisi ac, gravida odio
+Nulla facilisi
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Mauris nec turpis erat
+Curabitur imperdiet nisi vel metus suscipit, eget dapibus magna bibendum
+Quisque fermentum ultrices mauris, nec suscipit sapien dapibus at
+Vestibulum venenatis in leo non mollis
+Nam consectetur mi augue, non tincidunt libero auctor non.
+FTEE bigout5.txt bigout6.txt
+Maecenas dapibus convallis egestas
+Aliquam eleifend sem consectetur, maximus leo vitae, tempus ipsum
+Fusce et posuere est, vitae imperdiet ligula
+Proin at blandit nibh, sit amet lacinia turpis
+Aenean et lobortis odio
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Maecenas vehicula, tellus quis elementum scelerisque, dui massa tristique diam, vel auctor quam neque vitae massa
+Nunc ac hendrerit ante
+Aliquam et dolor fermentum, semper augue id, placerat nunc.
+FTEE bigout1.txt bigout2.txt
+Curabitur fringilla faucibus augue
+In accumsan imperdiet dolor, tincidunt accumsan dui eleifend vel
+Pellentesque fringilla arcu vitae felis rhoncus imperdiet
+Vivamus mollis malesuada mauris, vel accumsan massa feugiat at
+Aliquam efficitur a mauris consectetur mattis
+Vivamus quis justo vehicula, eleifend nisl at, pellentesque orci
+Duis pharetra dui porta, pellentesque leo et, luctus risus
+Pellentesque ac arcu ac tortor rhoncus aliquet.
+FTEE bigout3.txt bigout4.txt
+Donec fringilla ante justo, in sollicitudin neque blandit eu
+In a ex sapien
+Vivamus feugiat felis eget metus facilisis tristique
+Nunc orci leo, blandit eu neque vel, egestas vehicula augue
+In mi erat, aliquet nec fermentum vel, fringilla sit amet enim
+Praesent non libero quis justo euismod sagittis eu in leo
+Etiam sed quam ac lorem lacinia fermentum
+Nunc ut ultricies turpis, laoreet convallis lorem
+Fusce nisi nisi, porttitor sit amet viverra ut, mattis nec leo
+Aliquam eu nisl turpis.
+FTEE bigout5.txt bigout6.txt
+Vestibulum convallis tristique turpis, ac rhoncus leo varius ut
+Vestibulum vehicula purus in mauris tempor convallis
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat
+Nulla facilisi
+Duis dignissim, quam sed commodo pharetra, urna mauris rutrum ipsum, sed consectetur nulla felis ut metus
+Vivamus turpis ipsum, congue quis velit quis, dapibus mattis quam
+Aliquam erat volutpat
+Aenean leo dui, molestie ac varius quis, bibendum aliquam nisl
+Aenean a tellus ex
+Fusce venenatis cursus ligula a rutrum.
+FTEE bigout1.txt bigout2.txt
+Suspendisse sodales non mauris sit amet condimentum
+Etiam in mollis lectus, sed congue ipsum
+Aenean eget odio tellus
+Mauris ultricies ipsum ac nibh tincidunt, ac ultrices urna porta
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Nulla facilisi
+Pellentesque congue pharetra hendrerit
+Vestibulum lacinia quam ut quam bibendum euismod.
+FTEE bigout3.txt bigout4.txt
+Fusce sit amet ex aliquet, placerat leo ac, tincidunt elit
+Nullam ac egestas quam
+Maecenas ac iaculis ante
+Interdum et malesuada fames ac ante ipsum primis in faucibus
+Donec vestibulum est ac molestie sollicitudin
+Phasellus nec interdum purus
+Nulla id bibendum mauris, et scelerisque nunc
+Integer dapibus sem ac vehicula cursus
+In aliquet ornare nisi, ut blandit odio mollis at
+Phasellus efficitur odio augue, vitae tincidunt eros iaculis eu
+Pellentesque ultricies pretium nisl maximus lacinia
+Morbi fermentum egestas nunc
+Duis iaculis, eros vel sodales mollis, eros nulla sodales est, a luctus urna urna eget eros
+Sed et luctus nulla, non tempus augue
+Sed scelerisque elit sit amet elit dignissim auctor
+Sed lobortis consectetur nulla, sit amet vulputate mauris gravida vel.
+FTEE bigout5.txt bigout6.txt
+Nulla facilisi
+Duis sed ligula quam
+Suspendisse non eros et dolor eleifend tincidunt quis ac lectus
+Sed gravida dapibus mi vitae tincidunt
+Cras aliquet aliquam magna, ut dignissim nunc
+Sed volutpat ac sapien vitae eleifend
+Suspendisse augue mauris, vehicula et dignissim sed, pharetra mattis urna
+Vivamus auctor sem et maximus malesuada
+Morbi vitae tristique elit.
+FTEE bigout1.txt bigout2.txt
+Praesent tempus nisl et massa feugiat, ut posuere nisi aliquam
+Phasellus interdum finibus nisl, eu posuere justo facilisis vel
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vel ante odio
+Phasellus vulputate blandit ipsum, vitae bibendum dolor sollicitudin in
+Nunc ultrices pellentesque sem eu consectetur
+Suspendisse vehicula scelerisque libero, sed pulvinar risus auctor tempus
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Sed et felis lobortis, condimentum ex non, molestie nisi
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+FTEE bigout3.txt bigout4.txt
+Vestibulum volutpat nulla non purus varius, eget convallis elit lobortis
+Donec cursus massa sed mauris iaculis tincidunt
+Phasellus erat leo, placerat pharetra velit eu, euismod consectetur leo
+Duis mollis nunc quis ipsum dapibus cursus
+Mauris ultrices nec enim et semper
+Praesent semper a arcu vel sagittis
+Ut malesuada ac nulla imperdiet scelerisque
+Phasellus ornare, nisl vel fermentum elementum, nulla turpis aliquam quam, eu fringilla velit libero id velit
+Proin porttitor tellus non neque ultricies molestie ut nec felis
+Quisque porttitor dui ac neque imperdiet egestas
+Maecenas ligula felis, congue nec laoreet non, maximus ac nulla
+Nulla euismod molestie arcu
+Morbi vel consequat elit.
+FTEE bigout5.txt bigout6.txt
+Interdum et malesuada fames ac ante ipsum primis in faucibus
+Proin tempus convallis massa, at tempor eros feugiat scelerisque
+Nam magna enim, elementum sed lorem a, fringilla vehicula felis
+Cras ligula ipsum, semper sed imperdiet vitae, ornare sit amet ligula
+Pellentesque sem quam, dapibus sit amet nunc facilisis, finibus tincidunt ante
+In consequat metus massa, et lobortis mi scelerisque eu
+Praesent suscipit pharetra consequat
+Pellentesque ultrices purus sed ex feugiat, a euismod quam consequat
+Ut pulvinar tempus volutpat.
+FTEE bigout1.txt bigout2.txt
+Pellentesque mollis vehicula efficitur
+Morbi euismod neque id ligula venenatis, at convallis tellus bibendum
+Cras ultricies, dui vel sagittis sodales, eros felis ultricies ipsum, ut placerat magna erat eu erat
+Morbi egestas vulputate tincidunt
+Praesent euismod placerat odio sit amet efficitur
+Duis turpis eros, condimentum eu blandit a, condimentum ut enim
+Duis vestibulum ante pulvinar lorem congue, et suscipit lorem vestibulum
+Morbi luctus nisi molestie eros semper pharetra
+Aliquam et metus eleifend lectus auctor cursus
+Nulla tellus tellus, lacinia in viverra rutrum, aliquam quis risus
+Praesent ac urna eget sem fermentum consectetur eu ac eros
+Proin mattis, ex at tempus ultrices, diam purus fermentum massa, a molestie erat elit ut ligula
+Mauris suscipit faucibus cursus
+Phasellus at tempus dui, vel venenatis nulla
+Morbi et arcu sit amet augue volutpat bibendum
+Praesent tortor nisi, pulvinar vitae dui eu, facilisis tincidunt enim.
+FTEE bigout3.txt bigout4.txt
+Suspendisse sit amet posuere tortor, ornare pulvinar orci
+In consequat, nisi ullamcorper dictum posuere, neque odio ultrices dolor, eget convallis dui eros ac ligula
+Phasellus iaculis, lacus ac lacinia tristique, tortor felis tincidunt neque, ac tempor odio ante nec dolor
+Nulla egestas elit augue, sed lobortis est efficitur in
+Vivamus ultricies semper vulputate
+Nulla at accumsan ante
+Ut sed urna urna
+Ut id quam quis turpis ultrices faucibus
+Sed tempus risus eget metus accumsan, ac pretium odio tincidunt
+Proin mollis diam condimentum ante scelerisque interdum.
+FTEE bigout5.txt bigout6.txt
+Mauris id euismod magna
+Proin gravida ultrices blandit
+Phasellus suscipit bibendum purus, sit amet mollis nulla
+Nulla efficitur magna nec tempor malesuada
+Fusce vitae ante non lectus blandit scelerisque ac sed arcu
+Vivamus diam magna, vulputate vel finibus consequat, volutpat vel ipsum
+Nulla non ultricies tellus
+Sed ligula nisi, rutrum sit amet enim non, facilisis dapibus quam
+Praesent pulvinar ipsum vel purus elementum, pellentesque volutpat sapien malesuada
+Mauris consequat eros dolor, a bibendum justo consequat quis
+Sed laoreet volutpat velit, eget viverra velit bibendum nec
+Aenean ullamcorper placerat odio quis commodo
+Curabitur aliquet velit tortor, id efficitur risus molestie quis
+Nam egestas diam et rhoncus consectetur.
+FTEE bigout1.txt bigout2.txt
+Aliquam tristique ex in facilisis iaculis
+Fusce hendrerit tincidunt lectus non euismod
+Maecenas a nisi eu orci efficitur vehicula ut a diam
+Vestibulum a auctor nisi
+Donec id commodo sapien, eu auctor neque
+Maecenas dolor urna, ultrices at gravida vitae, tempor eu ex
+Praesent ac libero vel neque porttitor ornare
+Ut quis quam a sapien fermentum luctus ac eu orci
+Pellentesque a elit faucibus, blandit odio quis, accumsan diam
+Mauris sed quam sit amet ante maximus faucibus sed vitae nisl
+Quisque malesuada tempus dui at placerat
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+FTEE bigout3.txt bigout4.txt
+Aliquam et eros ante
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+In rhoncus mollis enim, in tincidunt velit viverra sed
+Nunc quis mattis mauris, vitae euismod mauris
+Nam accumsan dolor sapien, sit amet eleifend quam consequat id
+Sed porttitor nunc lacus, congue congue leo consectetur a
+In leo lorem, eleifend vel dolor in, volutpat fermentum nunc.
+FTEE bigout5.txt bigout6.txt
+Etiam dignissim dolor id semper scelerisque
+Etiam euismod luctus ipsum in vestibulum
+Maecenas ultricies leo eu orci porttitor, sed semper leo faucibus
+Duis malesuada auctor elit, eu posuere lectus blandit vel
+In et malesuada purus
+Vivamus eget nulla luctus, placerat ante ac, dignissim orci
+Vivamus vitae vehicula nunc
+Etiam sit amet felis nibh
+Vivamus bibendum dui et sapien posuere, sed semper urna lacinia
+Ut ut augue arcu
+Pellentesque sed tincidunt nisi, eget euismod lorem
+Vestibulum egestas, eros malesuada fringilla tempor, risus quam blandit orci, at placerat metus purus id lacus.
+FTEE bigout1.txt bigout2.txt
+Curabitur vitae eleifend justo
+Pellentesque accumsan quam erat, ac vestibulum enim aliquam a
+In tellus turpis, laoreet vel quam a, blandit viverra sem
+Quisque et nulla efficitur, imperdiet est nec, cursus urna
+Vivamus vestibulum lectus sit amet arcu ultrices, eu lobortis eros consectetur
+Aenean eget mi urna
+Praesent luctus sit amet mi sed commodo
+Vestibulum dapibus urna ac lectus facilisis euismod
+Praesent consequat id tortor sed condimentum
+Vivamus placerat nisl nec consectetur scelerisque
+Aenean suscipit, ante mattis tempus consequat, est ipsum vulputate massa, in hendrerit purus ipsum sit amet turpis
+Quisque vitae metus eget ex fermentum lobortis
+Nunc pretium semper bibendum
+Curabitur pretium aliquet risus ut commodo
+Etiam a consectetur leo.
+FTEE bigout3.txt bigout4.txt
+Maecenas nec elementum risus
+Nulla semper sapien facilisis felis interdum lacinia
+Cras odio mauris, pharetra non viverra laoreet, pharetra in libero
+Phasellus sed lobortis neque, eu rhoncus dui
+Praesent feugiat augue eu augue luctus condimentum
+Nunc dictum, sem ut congue euismod, ex massa pellentesque dui, nec congue lacus nisl ac urna
+Donec turpis erat, placerat quis lectus ut, pulvinar mattis ex
+Proin pellentesque feugiat sapien sollicitudin mattis
+Donec elementum non ex et viverra
+Praesent ultricies fringilla enim, et tincidunt sem blandit efficitur
+Vivamus vestibulum cursus magna eget euismod
+Nam vel condimentum ligula
+Nam id imperdiet purus, ac rhoncus ex
+Pellentesque quis neque ut velit iaculis efficitur.
+FTEE bigout5.txt bigout6.txt
+Phasellus at porta augue, et tristique urna
+Ut eu metus dictum, posuere metus at, rhoncus enim
+Fusce in feugiat leo
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Mauris a tellus imperdiet, egestas augue id, gravida ex
+Praesent imperdiet ipsum et risus cursus viverra
+Mauris congue volutpat felis, eget feugiat dui
+Mauris vitae cursus orci
+Duis malesuada erat eu nibh consequat ullamcorper
+Aliquam imperdiet consequat mauris sit amet euismod
+Sed sit amet erat non neque convallis mollis
+Proin eget dui vel nunc lobortis gravida
+Fusce laoreet dui vitae erat maximus malesuada
+Phasellus eget tortor id ante fermentum efficitur
+In porttitor elit tellus, vel auctor nibh venenatis vel
+Duis hendrerit justo augue, a aliquet sem pretium accumsan.
+FTEE bigout1.txt bigout2.txt
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque et felis dapibus, sagittis ante eget, volutpat nibh
+Suspendisse potenti
+Praesent mattis ex ex, lobortis euismod eros varius ac
+Praesent sed euismod nisl, ut dapibus mi
+In leo sapien, ullamcorper et tempor non, consequat vitae tellus
+Sed pellentesque erat lorem, sed pellentesque justo pulvinar ac
+Donec a dignissim lectus.
+FTEE bigout3.txt bigout4.txt
+Quisque odio dolor, posuere sit amet laoreet nec, rhoncus id diam
+Morbi facilisis rhoncus volutpat
+Curabitur sit amet urna magna
+Etiam pulvinar malesuada arcu, pretium aliquet justo venenatis ac
+Proin id sem malesuada, rutrum risus non, ultricies nisl
+Integer molestie vel nisl at cursus
+Nam nec interdum mi
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Etiam auctor vehicula ligula, sed ultrices purus consectetur ut
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris ex mi, mollis nec varius id, viverra ac mauris
+Pellentesque sollicitudin ipsum nec purus hendrerit fringilla
+Phasellus felis turpis, commodo lobortis aliquam vel, ornare id quam
+Aliquam bibendum fermentum elit, in facilisis orci venenatis sit amet.
+FTEE bigout5.txt bigout6.txt
+Phasellus pulvinar tincidunt consequat
+Quisque nulla lacus, facilisis ut hendrerit quis, dapibus in ligula
+Morbi aliquam ante nec metus placerat, eu placerat nulla semper
+Aliquam nec ante quam
+Morbi leo enim, feugiat vitae ex eu, pulvinar ullamcorper tortor
+Nullam ornare tempus elit, eu eleifend dolor accumsan sed
+Morbi vulputate lacinia risus sit amet aliquet
+Phasellus vulputate volutpat faucibus
+Sed dignissim varius sapien, nec malesuada urna placerat non.
+FTEE bigout1.txt bigout2.txt
+Etiam aliquet lorem augue
+Quisque ac varius lectus
+Etiam eu tellus lacus
+Cras commodo fermentum dictum
+Etiam interdum dui vitae tortor dignissim tristique
+Maecenas ut nunc et massa venenatis fringilla vel a mauris
+Nam eget maximus leo
+Suspendisse molestie tincidunt odio, vitae ultricies dui eleifend non
+Nullam quis neque eget quam faucibus gravida vitae eu enim
+In hac habitasse platea dictumst
+Aliquam accumsan lorem ut tristique aliquam
+Quisque mauris lacus, semper in mauris a, efficitur venenatis tellus.
+FTEE bigout3.txt bigout4.txt
+Integer eu leo nec risus blandit viverra
+Nam tortor lacus, viverra id velit at, mollis lacinia tortor
+Nunc sem enim, volutpat sed eros nec, finibus molestie arcu
+Aenean elementum imperdiet purus, quis scelerisque purus pharetra in
+Pellentesque interdum lorem quam
+Proin tristique iaculis tortor, in auctor lectus fringilla eget
+Praesent id mi libero.
+FTEE bigout5.txt bigout6.txt
+Cras congue varius turpis eu mollis
+Aliquam gravida in lectus ac interdum
+In hac habitasse platea dictumst
+Etiam egestas, nisl a malesuada maximus, augue justo cursus risus, nec finibus tellus tortor ut metus
+Vivamus eget enim sit amet urna ornare volutpat
+Sed nibh velit, bibendum sit amet accumsan id, egestas vel dolor
+Duis ut varius magna, nec tristique metus
+Nulla sapien tellus, finibus ut nisi sit amet, fermentum posuere est
+In volutpat dui ipsum, id viverra nisl vestibulum eget
+Nullam leo lectus, condimentum quis convallis quis, mattis sit amet nisl.
+FTEE bigout1.txt bigout2.txt
+Sed ultrices porttitor pulvinar
+Suspendisse et tellus velit
+Nam commodo ultrices mauris bibendum tempor
+Mauris nec lectus enim
+Morbi lectus orci, egestas in maximus vel, porttitor aliquet ipsum
+Curabitur tempor eget mauris sed tempor
+Quisque porttitor, urna eu suscipit maximus, urna nunc venenatis turpis, blandit tincidunt enim quam eu libero
+Suspendisse convallis dictum consectetur
+Ut euismod imperdiet elit, et luctus ligula volutpat euismod.
+FTEE bigout3.txt bigout4.txt
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas hendrerit sodales sapien ut mattis
+Donec leo lacus, imperdiet nec sapien ac, pharetra malesuada tellus
+Mauris dui tortor, aliquam nec nunc non, fringilla aliquam enim
+Sed rhoncus et mi quis lobortis
+Morbi congue nisi non ultricies rutrum
+Donec tincidunt eros massa, non rhoncus diam consequat ac
+Suspendisse tortor nisl, molestie id tempus at, blandit in arcu
+Curabitur pharetra gravida elit sed vulputate
+Aliquam non nisl mollis eros condimentum sagittis sodales at elit
+Praesent sed vestibulum augue, a elementum ex
+Nullam nec diam ante
+Mauris eu sem eu velit porttitor porta
+Etiam nec erat congue sem sodales dignissim eget a elit
+Etiam diam augue, accumsan vitae malesuada vel, porttitor convallis dolor
+Aenean consequat tellus eu erat condimentum, a sodales purus rutrum.
+FTEE bigout5.txt bigout6.txt
+Vivamus et pellentesque augue
+Pellentesque rhoncus auctor purus, a hendrerit nisi molestie vel
+Ut eleifend justo orci, et pellentesque tortor molestie sed
+Phasellus efficitur dapibus lacus pulvinar elementum
+Donec sit amet elementum metus
+Mauris non libero non risus malesuada iaculis
+Duis mattis tellus sit amet metus vehicula consectetur
+Aliquam erat volutpat
+Nulla efficitur diam eget magna venenatis, tincidunt pulvinar diam rutrum
+Nunc aliquet arcu orci, sit amet efficitur diam tincidunt id.
+FTEE bigout1.txt bigout2.txt
+Sed mattis a turpis sit amet posuere
+Nulla dignissim blandit nisi, eget sodales dui porta quis
+Sed at mauris non enim rhoncus aliquet id eget sapien
+Nam ultrices quam a diam cursus, vel hendrerit tellus condimentum
+Aenean nunc magna, sagittis a purus in, tempor rhoncus nibh
+Etiam at placerat mi
+Nunc tempus rhoncus pharetra
+Nunc felis dui, efficitur et risus eget, consectetur porta ligula
+Aenean ullamcorper, eros in convallis vulputate, metus purus pulvinar ante, eget venenatis ex ipsum iaculis enim.
+FTEE bigout3.txt bigout4.txt
+Sed fermentum egestas volutpat
+In bibendum, mauris sit amet tincidunt condimentum, magna arcu suscipit turpis, id efficitur nisl ante sed neque
+Aliquam cursus est eget nulla auctor, id efficitur ex feugiat
+Curabitur vulputate elit erat, ut feugiat nisi facilisis et
+Sed iaculis vel ante ac sollicitudin
+Integer nec nisl mauris
+Morbi scelerisque velit at eros tincidunt luctus eget eu dolor
+Nulla laoreet iaculis varius.
+FTEE bigout5.txt bigout6.txt
+Vivamus aliquam rutrum dictum
+Donec vulputate nunc vel sapien egestas blandit
+Sed cursus metus nibh, quis gravida nunc eleifend vel
+Donec luctus vel sem nec hendrerit
+Maecenas feugiat lorem dui, eu dapibus dolor sagittis ac
+Phasellus scelerisque efficitur nunc eget sollicitudin
+Praesent scelerisque venenatis urna non rhoncus
+Fusce imperdiet luctus ornare
+Cras semper cursus dictum
+Etiam vel diam neque
+In hac habitasse platea dictumst
+Fusce in magna ac sem cursus bibendum
+Mauris porta nibh a justo pellentesque facilisis
+Pellentesque in sollicitudin neque.
+FTEE bigout1.txt bigout2.txt
+Donec luctus commodo nulla, in tempor leo
+Sed nulla urna, lacinia at diam a, vestibulum hendrerit leo
+Curabitur finibus mauris a vulputate dapibus
+In id pharetra nulla
+Sed vel dui commodo, semper elit ac, dapibus erat
+Etiam semper leo odio, nec imperdiet mauris dictum a
+Aenean neque ante, accumsan malesuada sagittis et, porta dictum ipsum
+Mauris at turpis eu eros congue efficitur a et est
+Suspendisse ex augue, rutrum eget felis sit amet, rhoncus pretium ipsum
+Cras efficitur sapien ante, sit amet iaculis justo ornare nec
+Curabitur eu porttitor ligula
+Aliquam vel tortor consequat, malesuada leo ac, finibus mauris
+Nam vulputate nunc et nisi pharetra ornare
+Morbi lacinia at mauris vitae feugiat
+Cras dignissim risus risus, nec convallis massa efficitur at.
+FTEE bigout3.txt bigout4.txt
+Phasellus eu ultricies felis, non imperdiet dui
+Vestibulum interdum orci nec urna placerat, sit amet euismod libero suscipit
+Morbi at arcu malesuada nisi ullamcorper tristique
+Praesent condimentum in velit sed condimentum
+Cras felis diam, sollicitudin placerat lectus ut, dapibus vestibulum ligula
+Mauris vitae tristique velit
+Sed ut dignissim augue
+Nulla eu laoreet dui
+In lobortis pellentesque pellentesque
+Cras non mauris in sem interdum facilisis vel at nunc
+Suspendisse potenti
+Cras mollis luctus accumsan
+Duis ipsum nulla, ultrices sit amet massa sed, hendrerit euismod arcu
+Nulla dapibus interdum sagittis
+Donec eleifend velit ac lectus cursus tincidunt.
+FTEE bigout5.txt bigout6.txt
+Sed condimentum lorem non neque commodo scelerisque
+Fusce facilisis quam eget iaculis sodales
+Suspendisse finibus fringilla tempor
+Donec lacus neque, tristique non scelerisque id, gravida vitae mi
+Sed id molestie dolor, vitae suscipit ante
+In hac habitasse platea dictumst
+Praesent ut diam neque.
+FTEE bigout1.txt bigout2.txt
+Aenean maximus purus et bibendum elementum
+Curabitur consectetur, turpis venenatis accumsan tristique, purus massa fringilla massa, nec laoreet neque risus id arcu
+Proin consectetur vitae risus vitae ullamcorper
+Integer turpis urna, ultrices id consectetur eget, convallis ac ex
+Cras viverra sagittis velit, non ullamcorper velit bibendum vel
+Integer orci tellus, vestibulum non eros at, lobortis tempus turpis
+Sed volutpat nunc id arcu scelerisque, at commodo tortor condimentum
+Maecenas lobortis elementum risus ac euismod
+Ut in lectus eleifend, blandit nulla ut, ornare purus
+Phasellus a turpis felis
+Nulla non nulla vel nulla congue blandit et blandit purus
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras augue nulla, lobortis nec felis a, tristique viverra lacus
+Vestibulum placerat finibus lacinia
+Ut a posuere nulla
+Nulla laoreet sit amet felis in malesuada.
+FTEE bigout3.txt bigout4.txt
+Morbi sed eros sit amet massa venenatis fringilla sit amet quis urna
+Phasellus et lorem id ligula malesuada suscipit
+Nulla ut erat et nisl rutrum ultricies
+Sed id pellentesque risus
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Proin quis faucibus mauris
+Morbi tincidunt diam eu sem ullamcorper tempor.
+FTEE bigout5.txt bigout6.txt
+Morbi ut velit euismod, ornare est ut, tempor enim
+Phasellus interdum leo consequat, rhoncus urna in, egestas dui
+Nulla quis nunc sed libero iaculis fringilla sed pellentesque libero
+Praesent eget mollis ex
+Nulla in lacus pharetra, mattis erat et, faucibus augue
+Mauris ac pharetra est
+Aenean sed sollicitudin eros, et dignissim diam
+Sed faucibus pulvinar pharetra
+Aliquam porttitor, lorem at ultrices pretium, erat velit finibus mi, eget semper enim purus quis dolor
+Duis vel dolor non turpis interdum dignissim eget sed arcu
+Aliquam mauris libero, aliquet ut auctor non, viverra non neque
+Maecenas pharetra felis quis consequat laoreet
+Curabitur id dignissim felis, ac finibus nisl.
+FTEE bigout1.txt bigout2.txt
+Fusce tincidunt ultrices nisl vel dictum
+Nulla tincidunt, turpis sit amet tincidunt vestibulum, sapien eros varius lectus, semper ornare mauris nunc vel mi
+Proin nulla nunc, maximus ut varius et, dapibus sit amet nisi
+Vivamus enim tortor, tempor sit amet enim quis, ultrices dictum nibh
+Donec venenatis eu orci ac aliquam
+In ullamcorper est in eros ultricies pellentesque
+Nam id velit eget ex maximus auctor
+Aliquam erat volutpat
+Maecenas quis nunc vulputate quam consequat ultrices
+Praesent sit amet dolor in ante fermentum finibus
+Ut quis neque at arcu tristique consectetur
+Curabitur pellentesque massa arcu, at imperdiet massa iaculis sed
+Fusce eu lectus et ipsum efficitur porta nec non elit
+Aenean in pretium urna, eget pulvinar neque
+Sed vestibulum dapibus massa, in porttitor tortor dignissim quis.
+FTEE bigout3.txt bigout4.txt
+In at neque dictum, maximus tortor ac, semper augue
+Proin placerat dapibus lectus, consectetur feugiat dolor consequat eu
+Aliquam fermentum dui id elit gravida pretium
+Vestibulum lobortis nisi pulvinar, varius nisl non, finibus quam
+Morbi efficitur quam at vehicula varius
+Sed bibendum efficitur leo, quis maximus metus rutrum at
+Vivamus sagittis lectus quis purus viverra, non euismod leo posuere
+Donec ut commodo sem
+Cras sodales leo vitae arcu tincidunt euismod
+Nullam ut odio ligula
+Integer congue neque leo, in blandit augue ultrices in.
+FTEE bigout5.txt bigout6.txt
+Morbi at commodo mi
+Nulla ut ex felis
+Duis at odio enim
+Aliquam facilisis mauris quis tellus tempus consequat vitae sit amet leo
+Morbi pellentesque leo metus, sit amet dignissim leo posuere sit amet
+Morbi erat augue, mollis quis lacus eget, commodo lobortis massa
+Morbi justo ipsum, mollis in maximus ac, eleifend sed felis
+Integer ac lacus vitae enim ultrices luctus quis et augue
+Praesent ornare urna lobortis odio mollis convallis.
+FTEE bigout1.txt bigout2.txt
+Phasellus rhoncus sapien ligula, nec fermentum turpis euismod non
+Nulla facilisi
+Nunc suscipit justo sed nulla ullamcorper feugiat
+Etiam lacinia tristique ante nec consequat
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Nam bibendum enim quis lacus sagittis convallis
+Aliquam tincidunt blandit velit id semper
+Donec dapibus dictum lacus ut sollicitudin
+Phasellus eleifend eros ac lobortis mattis
+Aliquam libero justo, rutrum semper lectus in, imperdiet aliquet neque
+Pellentesque vehicula est ut metus ultrices, sed efficitur ante condimentum
+In vitae metus vitae diam semper dignissim
+Morbi vulputate ex in cursus bibendum.
+FTEE bigout3.txt bigout4.txt
+Aenean mi dolor, viverra luctus maximus id, vulputate sed ligula
+Nunc at nibh quam
+Donec suscipit nulla quis sapien elementum faucibus
+Sed vestibulum magna ut dictum tempus
+Vivamus interdum lectus elementum lorem sodales, vel viverra mi ornare
+In sed ante id diam dignissim dignissim
+Fusce ut est quis dui aliquet fermentum
+Nulla porttitor luctus augue, in pretium ligula placerat nec
+Nulla eget urna velit
+Sed non ex risus
+Nulla fringilla diam felis, eu aliquet dui egestas sed
+Fusce et maximus purus
+Etiam aliquet nunc id libero commodo egestas
+Phasellus pretium, metus quis semper tempus, purus massa feugiat ligula, a hendrerit tortor lectus sit amet odio
+Sed lacinia, ligula eget venenatis hendrerit, elit ipsum vestibulum nisl, ac hendrerit ex enim ut enim.
+FTEE bigout5.txt bigout6.txt
+Nulla quis venenatis purus
+Curabitur quis magna metus
+Vivamus sit amet leo neque
+Donec egestas lorem a elementum semper
+Praesent eget rutrum ligula
+Aliquam pretium imperdiet orci, eget cursus nulla feugiat iaculis
+Nam eget malesuada tortor
+Vivamus at purus commodo, aliquet est sed, fermentum dolor
+Curabitur non pharetra enim, vel tempus orci
+Nam hendrerit hendrerit gravida
+Vivamus nulla urna, imperdiet vel posuere in, commodo vel turpis
+Sed auctor arcu eget nulla ullamcorper fermentum
+Cras massa sapien, dapibus eget purus vel, venenatis malesuada metus
+Nunc enim libero, rutrum sit amet erat feugiat, porta porta lectus.
+FTEE bigout1.txt bigout2.txt
+Aenean eu nibh a purus volutpat maximus
+In semper purus purus, ac faucibus leo suscipit eget
+Ut sagittis molestie blandit
+Sed accumsan convallis dignissim
+Vestibulum id erat purus
+Morbi sed iaculis quam
+Morbi molestie posuere massa, nec viverra justo
+Pellentesque vel convallis enim, non imperdiet lectus
+Ut sed imperdiet dui
+Nullam malesuada id metus eu ultricies.
+FTEE bigout3.txt bigout4.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Praesent nec efficitur lectus
+In vel pellentesque tortor
+Sed eu enim non magna venenatis blandit
+Sed efficitur sodales pretium
+Nam consectetur tristique lacus accumsan tristique
+Curabitur condimentum risus in ante suscipit bibendum
+Aenean in pellentesque ante, aliquet eleifend leo
+Sed varius, turpis ac molestie laoreet, quam massa scelerisque dui, at posuere tellus massa vitae magna
+Maecenas ac malesuada ex
+Mauris eu pellentesque metus
+Aliquam id vulputate erat
+Sed mattis, leo tincidunt dapibus convallis, lacus magna mollis diam, et rhoncus felis turpis ac arcu.
+FTEE bigout5.txt bigout6.txt
+Curabitur vehicula nec ante non tincidunt
+Praesent at nunc faucibus, pulvinar felis sed, rhoncus quam
+Quisque maximus aliquam lorem a commodo
+Fusce id mauris in augue aliquet facilisis eget vitae metus
+Donec ac tristique arcu
+Duis vel libero enim
+Donec rhoncus at erat eget sodales
+Ut dolor metus, eleifend eget sodales et, aliquam in sapien
+Aenean hendrerit nec ipsum id porta
+Nam et nisl id eros congue imperdiet
+Curabitur sed ultrices neque
+Etiam accumsan nibh quis risus tempus laoreet
+Integer malesuada auctor enim, vel lacinia lectus sagittis eget
+In fermentum maximus dui, lacinia iaculis arcu sagittis non.
+FTEE bigout1.txt bigout2.txt
+Proin molestie justo sed nunc fringilla egestas
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Donec in volutpat odio
+Phasellus lorem tellus, facilisis at bibendum eget, posuere in lorem
+Nullam non neque a eros imperdiet sodales
+Nunc sagittis libero ut varius posuere
+Proin ut purus a purus blandit vulputate
+Cras luctus diam vitae bibendum tristique
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus et elit eu massa eleifend posuere
+Aliquam convallis molestie libero, eu commodo mi semper ut
+Nulla facilisis magna eu finibus faucibus
+Sed odio tellus, lobortis quis facilisis auctor, varius vel leo
+Sed id felis sollicitudin, malesuada nibh vel, bibendum erat
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Aenean ultrices ultrices tellus non cursus.
+FTEE bigout3.txt bigout4.txt
+Donec consequat aliquam dignissim
+Nam eu accumsan eros, eu ornare orci
+Aliquam eget congue justo, eget consectetur mi
+Suspendisse elementum sollicitudin risus, ac convallis turpis vestibulum ac
+Vestibulum interdum libero ut libero suscipit consectetur
+Duis et lobortis leo, nec iaculis purus
+Suspendisse et mi in dolor feugiat venenatis ut ac ipsum
+Nam ac lorem fringilla, mattis ex vel, tempor mauris
+Nam ante justo, consectetur vitae libero eget, cursus aliquam ligula
+Curabitur viverra nunc non elit commodo aliquam at nec sapien
+Quisque egestas massa sed nisi blandit eleifend
+Praesent convallis sem molestie facilisis gravida
+Mauris nec purus tristique, tincidunt sapien ut, porttitor justo
+Duis neque velit, facilisis ac velit id, fermentum tristique diam.
+FTEE bigout5.txt bigout6.txt
+Donec feugiat justo ligula, vel congue justo malesuada eu
+Morbi erat sem, accumsan id quam vitae, maximus tincidunt est
+Phasellus blandit malesuada hendrerit
+Donec accumsan accumsan diam, sit amet tempus ipsum malesuada ut
+Morbi tincidunt, arcu et aliquet ultricies, quam ante mattis felis, at eleifend justo eros nec quam
+Etiam ornare auctor massa ullamcorper laoreet
+Quisque vehicula porttitor eros sed iaculis
+Nulla malesuada sollicitudin posuere
+Cras nec venenatis felis, vitae facilisis odio
+Suspendisse at neque turpis
+Mauris malesuada, tellus at gravida egestas, felis risus pulvinar nibh, vitae consequat urna est at lacus
+Sed blandit gravida ante, non suscipit lorem malesuada eu
+Pellentesque purus enim, blandit ac turpis in, porttitor molestie odio.
+FTEE bigout1.txt bigout2.txt
+Maecenas viverra sem vitae turpis elementum condimentum
+Proin vulputate risus neque
+Maecenas in orci at quam maximus cursus in sit amet mauris
+Duis facilisis, neque eu congue dapibus, nisl mauris tempus tortor, nec tempor justo justo in tortor
+Donec eu eros egestas, aliquet felis eu, imperdiet leo
+Maecenas vel turpis eget mi eleifend consectetur eleifend non purus
+Pellentesque dignissim ligula urna, dictum eleifend nisl ullamcorper sit amet.
+FTEE bigout3.txt bigout4.txt
+Donec eu pellentesque nisl, id congue dolor
+Suspendisse fermentum accumsan risus ac dignissim
+Etiam sapien risus, finibus eu magna eget, porta facilisis est
+Proin velit enim, molestie non sagittis non, convallis in urna
+Aliquam vel tempor enim, in tempus nulla
+Vestibulum lacinia, tortor id hendrerit auctor, nulla risus tempor ex, sed pretium odio est ut tellus
+Proin vel mi eu elit vestibulum fringilla vitae a justo
+Quisque eu ligula non orci vehicula egestas at at dolor
+Nullam et augue ultrices, tristique metus eu, maximus purus
+Sed ultrices convallis massa, vitae imperdiet velit porttitor mollis
+Vivamus interdum orci ligula, ac iaculis magna sagittis non
+Aliquam molestie nisi ac sem imperdiet cursus
+Nam laoreet purus non sapien interdum, nec sollicitudin nunc malesuada.
+FTEE bigout5.txt bigout6.txt
+Nam quis justo pellentesque diam vestibulum finibus sed at ante
+Aenean efficitur, quam in cursus lobortis, justo est auctor leo, nec condimentum orci nisl ut enim
+Vestibulum consectetur ullamcorper ex
+Cras convallis interdum libero, quis condimentum diam tincidunt ac
+Nam congue turpis id ornare tincidunt
+Mauris aliquam lectus eget eros maximus gravida
+In consectetur dapibus justo, ac luctus sem consequat nec
+Morbi sodales, sapien sit amet tempor convallis, arcu velit porttitor justo, a suscipit erat ex ac ligula
+Suspendisse vestibulum, mi sed condimentum mollis, tellus eros mollis diam, quis rutrum orci nulla eget odio
+Donec in luctus nulla
+Phasellus vitae magna metus
+Sed posuere nunc vel justo imperdiet, quis interdum enim congue
+Proin aliquam ipsum ac elementum pulvinar
+Quisque eu tincidunt ligula.
+FTEE bigout1.txt bigout2.txt
+Integer sed nibh ante
+Donec metus purus, commodo nec finibus et, porttitor sed urna
+Suspendisse vitae elementum nulla
+Mauris porta elit lorem, sit amet tempus ipsum blandit malesuada
+In massa ex, aliquet vel pellentesque vitae, laoreet eget diam
+Donec sem mi, tempor at tempor sit amet, convallis eget risus
+Aenean nec sodales urna
+Praesent ante quam, feugiat id purus id, interdum convallis urna
+Nulla consequat ultricies est ornare hendrerit
+Donec lorem elit, porttitor sit amet felis a, posuere tempus nulla.
+FTEE bigout3.txt bigout4.txt
+Etiam pulvinar libero sed nulla varius, et interdum odio vulputate
+Donec aliquet nunc eros, volutpat aliquet neque placerat elementum
+Nunc sed tellus faucibus, scelerisque quam sed, viverra quam
+Integer ipsum augue, egestas id ultrices at, accumsan a sapien
+In ultricies nisl id est interdum luctus
+Nulla sollicitudin rutrum enim eget pellentesque
+Sed pulvinar vulputate accumsan
+Nullam dignissim elit nec arcu bibendum venenatis
+Vivamus elementum orci ut elit condimentum accumsan.
+FTEE bigout5.txt bigout6.txt
+Nunc at placerat felis
+In fringilla risus odio, vel cursus nulla iaculis sit amet
+Suspendisse eu auctor est
+Phasellus pulvinar turpis eget nunc scelerisque condimentum
+Quisque eleifend elementum gravida
+Integer aliquet vitae est vitae fermentum
+Praesent eleifend rhoncus justo nec pulvinar
+Nullam malesuada, ipsum a feugiat mattis, quam enim cursus dolor, vel suscipit lectus elit eget orci
+Nullam tristique, est et pretium auctor, ligula libero lobortis dolor, sit amet semper leo ligula ut diam
+Proin eu suscipit ipsum.
+FTEE bigout1.txt bigout2.txt
+Curabitur facilisis, elit a faucibus tincidunt, est mi fermentum nulla, eget hendrerit lacus dui eu ex
+Cras mattis iaculis massa, sit amet porta mauris aliquet in
+Nulla malesuada lobortis nisi, et efficitur nisl facilisis ac
+Nulla tincidunt nisi a tellus rutrum, non fermentum purus consectetur
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+Duis hendrerit viverra ante, sit amet bibendum turpis tempus auctor
+Donec in mollis augue
+Sed quis tortor libero
+Suspendisse dolor augue, tristique nec risus non, luctus gravida dui
+Nunc vehicula aliquet elit
+Aliquam pretium ipsum eget arcu pulvinar tempor
+Morbi sollicitudin est ex, eleifend interdum leo convallis vel.
+FTEE bigout3.txt bigout4.txt
+Aenean at pellentesque dui
+Vestibulum quam sem, pellentesque ac lectus eu, pellentesque suscipit magna
+Nulla laoreet mauris et libero vestibulum, nec convallis quam finibus
+Maecenas hendrerit venenatis turpis ut sagittis
+In at lectus ipsum
+Donec ligula turpis, venenatis vel porta ac, tincidunt id libero
+Vivamus blandit, ante nec ullamcorper ullamcorper, velit dui rhoncus eros, vitae ultricies orci sem nec nisl
+Fusce eu metus vel libero aliquet sollicitudin vel ut est
+Aliquam condimentum accumsan est vel laoreet
+Ut in ultrices lorem
+Nam facilisis pellentesque ligula eget feugiat
+Vestibulum euismod iaculis quam eu feugiat.
+FTEE bigout5.txt bigout6.txt
+Interdum et malesuada fames ac ante ipsum primis in faucibus
+Aliquam molestie id ligula vitae volutpat
+Nulla facilisi
+Nunc id cursus lectus
+Morbi suscipit aliquam est hendrerit imperdiet
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Praesent ac auctor ligula
+Quisque pulvinar nulla dapibus leo mattis, eu facilisis ex egestas
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Ut ac augue lorem.
+FTEE bigout1.txt bigout2.txt
+Nullam dapibus dui ut ipsum rhoncus, ut finibus ante dictum
+Nunc tincidunt imperdiet ultrices
+Proin convallis velit et maximus egestas
+Fusce dolor lacus, cursus quis vehicula vitae, volutpat et sapien
+Mauris at nunc turpis
+Vestibulum eu purus a neque varius pharetra
+Nunc elementum lobortis arcu a convallis
+Sed in egestas elit, eget auctor nisl.
+FTEE bigout3.txt bigout4.txt
+Sed nec sollicitudin nunc
+Maecenas vitae urna et lectus gravida varius sed sit amet metus
+Phasellus nec tellus vitae diam imperdiet vestibulum
+Duis vulputate, lectus et tincidunt porttitor, elit urna fermentum mi, eu ultricies arcu erat pharetra ante
+Nulla quis consequat nulla
+Nulla in finibus ligula
+Pellentesque lacinia ipsum eget orci efficitur pulvinar
+Morbi quis volutpat mauris
+Vestibulum egestas et elit in bibendum.
+FTEE bigout5.txt bigout6.txt
+Nunc eu pulvinar justo
+Aenean efficitur eros ac dapibus iaculis
+Curabitur ac nisi sapien
+Quisque efficitur eget tellus eu tempus
+Nam malesuada tempus tortor
+Nullam fermentum aliquam gravida
+Nulla placerat felis a sapien scelerisque finibus
+Donec ornare ex in tortor commodo posuere
+Fusce semper faucibus arcu id elementum
+Quisque augue felis, molestie quis tortor a, venenatis varius ligula
+Etiam venenatis non lorem quis cursus.
+FTEE bigout1.txt bigout2.txt
+Suspendisse sollicitudin faucibus semper
+Quisque sit amet bibendum ipsum
+Vestibulum sollicitudin interdum magna, vitae dictum leo scelerisque vitae
+Etiam consequat orci faucibus eros tempor congue
+In bibendum quam elit, non consequat ligula ornare ac
+Ut commodo nisl massa, eget vehicula enim elementum non
+Cras at mattis odio
+In vitae ante vitae elit laoreet efficitur
+Donec aliquam a nulla ut pellentesque.
+FTEE bigout3.txt bigout4.txt
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos
+Maecenas lacinia est ut ligula eleifend, non ornare erat sollicitudin
+Mauris erat lectus, bibendum vel mauris et, scelerisque facilisis mi
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+Morbi justo nunc, posuere in nisi at, tristique porta elit
+Vivamus turpis massa, dictum ut odio ac, condimentum pretium quam
+Quisque id molestie risus
+Pellentesque lobortis ex nibh, ac lacinia tortor suscipit accumsan
+Quisque rutrum ultricies facilisis
+Maecenas quis lacinia mauris, id commodo lacus
+Quisque velit ante, accumsan interdum bibendum eget, tincidunt nec nibh.

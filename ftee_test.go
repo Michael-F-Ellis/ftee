@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"reflect"
 	"testing"
 )
@@ -65,4 +66,18 @@ func TestOpenOutputFiles(t *testing.T) {
 	}
 	closeOutputFiles()
 	removeOutputFiles()
+}
+
+func BenchmarkProcessInputFile(b *testing.B) {
+	// includes file I/O
+	for n := 0; n < b.N; n++ {
+		infd, err := os.Open("bigfile.txt")
+		if err != nil {
+			err = fmt.Errorf("Couldn't open input file: %q", err)
+			return
+		}
+		processInputFile(infd, "FTEE")
+		infd.Close()
+		removeOutputFiles()
+	}
 }
