@@ -5,7 +5,7 @@
 /*
 ftee is a many-to-many file splitter. Command line usage is
 
-    ftee [-h] [-d delimiter] infile1 [infile2 ... ]
+	ftee [-h] [-d delimiter] infile1 [infile2 ... ]
 
 The default delimiter is "FTEE".
 */
@@ -24,8 +24,7 @@ import (
 const copyright = `
 Copyright 2019 Ellis & Grant, Inc. All rights reserved.  Use of the source
 code is governed by an MIT-style license that can be found in the LICENSE
-file.
-`
+file.`
 const description = `
   ftee reads all lines in each input file sequentially. When it sees a line
   ending with "delimiter outfile1 [outfile2 ...]", it opens the outfiles and
@@ -80,8 +79,7 @@ const description = `
 	  /* FTEE somefile otherfile */
 
 	ftee has not been tested on Windows. Problems with backslashed filepaths
-	are likely.
-`
+	are likely.`
 
 // Global map of output filenames and file objects.
 var _gOutputs = make(map[string]*os.File)
